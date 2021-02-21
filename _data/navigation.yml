@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: CV
+  link: /cv
+- name: Publications
+  link: /pubs
+- name: Software
+  link: /software
+- name: Contact
+  link: /Contact

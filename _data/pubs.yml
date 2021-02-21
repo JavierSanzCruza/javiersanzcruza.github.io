@@ -1,0 +1,28 @@
+- title: Book publication
+  authors:
+    - author 1
+    - author 2
+  type: book
+  book: Title of the book
+  editors:
+      - editor 1
+      - editor 2
+  editorial: Editorial
+  isbn: isbn value
+  pages: 1-10
+  date: Month Year
+  tags:
+    - tag1
+    - tag2
+    - tag3
+  doi: link to the publication site
+  link: link to the publication or preprint
+
+- title: Journal publication
+  authors:
+    - author 1
+    - author 2
+  type: journal
+  journal: title of the journal
+  volume: volume
+  issue: issue

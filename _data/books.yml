@@ -1,0 +1,22 @@
+- title: Contact Recommendations in Social Networks
+  authors:
+    - J. Sanz-Cruzado
+    - P. Castells
+  book: "Collaborative Recommendations: Algorithms, Practical Challenges and Applications"
+  editors:
+    - S. Berkovsky
+    - I. Cantador
+    - D. Tikk
+  editorial: World Scientific Publishing
+  isbn: 978-981-3275-35-5
+  pages: 519-570
+  date: November 2018
+  tags:
+    - recommender systems
+    - social networks
+    - contact recommendation
+    - evaluation
+    - novelty
+    - diversity
+  doi: 
+  link:

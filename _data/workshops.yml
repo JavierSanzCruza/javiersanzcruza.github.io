@@ -1,0 +1,33 @@
+- title: Beyond Accuracy in Link Prediction
+  authors: 
+    - J. Sanz-Cruzado
+    - P. Castells
+  workshop: 3rd Workshop on Social Media for Personalization and Search (SoMePeAS 2019)
+  conference: 41st European Conference on Information Retrieval (ECIR 2019)
+  venue: Cologne, Germany
+  date: April 2019
+  link: http://ir.ii.uam.es/pubs/somepeas2019.pdf
+  tags:
+    - link prediction
+    - social network analysis
+    - recommender systems
+    - evaluation
+    - novelty
+    - diversity
+    - weak link
+    - structural diversity
+
+- title: Structural Novelty and Diversity in Link Prediction
+  authors: 
+    - J. Sanz-Cruzado
+    - S.M. Pepa
+    - P. Castells
+  workshop: 9th International Workshop on Modeling Social Media (MSM 2018)
+  conference: The Web Conference 2018 (WWW 2018)
+  venue: Lyon, France
+  date: April 2018
+  link: http://ir.ii.uam.es/pubs/msm2018-short.pdf
+  tags:
+    - social networks
+    - contact recommendation
+    - text information retrieval

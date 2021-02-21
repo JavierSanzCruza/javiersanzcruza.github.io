@@ -1,0 +1,68 @@
+.theme-header {
+	position: relative;
+	background-color: rgba(0,0,0,0)
+}
+
+.theme-header .mdl-layout__header-row {
+	padding: 0;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.mdl-layout__title {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 300
+}
+
+.theme-navigation-row {
+	background-color: rgba(0,0,0,0.08);
+	text-transform: uppercase;
+	height: 42px;
+}
+
+.theme-navigation-row .mdl-navigation {
+	text-align: center;
+	max-width: 900px;
+	width: 100%
+}
+
+.theme-navigation-row .mdl-navigation__link {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	line-height: 42px;
+}
+
+.theme-drawer{
+	vertical-align: middle;
+}
+
+.theme-drawer .is-active{
+	font-weight: bold;
+}
+
+.theme-navigation-row .is-active {
+	position: relative;
+	font-weight: bold;
+}
+
+.theme-navigation-row .is-active:after {
+	content: "";
+	width: 70%;
+	height: 2px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(255,64,129);
+	left: 15%;
+}
+
+.main-div {
+  margin-left : auto;
+  margin-right : auto;
+  margin-top : 20px;
+  margin-bottom: 0px;
+}

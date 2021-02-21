@@ -1,0 +1,33 @@
+- title: Information Retrieval Models for Contact Recommendation in Social Networks
+  authors: 
+    - J. Sanz-Cruzado
+    - P. Castells
+  conference: 41st European Conference on Information Retrieval (ECIR 2019)
+  venue: Cologne, Germany
+  date: April 2019
+  link: http://ir.ii.uam.es/pubs/ecir2019.pdf
+  tags:
+    - social networks
+    - contact recommendation
+    - text information retrieval
+
+- title: Enhancing Structural Diversity in Social Networks by Recommending Weak Ties
+  authors:
+    - J. Sanz-Cruzado
+    - P. Castells
+  conference: 12th ACM Conference on Recommender Systems (RecSys 2018)
+  venue: Vancouver, Canada
+  date: October 2018
+  pages: 233-241
+  link: http://ir.ii.uam.es/pubs/recsys2018-jsanzcruzado.pdf
+  slides: http://es.slideshare.net/JavierSanzCruzadoPui/recsys-2018-enhancing-structural-diversity-in-social-networks-by-recommending-weak-ties
+  poster: http://ir.ii.uam.es/pubs/recsys2018-jsanzcruzado-poster.pdf
+  tags:
+    - contact recommendation
+    - diversity
+    - novelty
+    - redundancy
+    - social network analysis
+    - weak tie
+    - evaluation
+    - metric
