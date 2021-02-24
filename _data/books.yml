@@ -11,12 +11,12 @@
   isbn: 978-981-3275-35-5
   pages: 519-570
   date: November 2018
-  tags:
+  keywords:
     - recommender systems
     - social networks
     - contact recommendation
     - evaluation
     - novelty
     - diversity
-  doi: 
-  link:
+  doi: https://doi.org/10.1142/9789813275355_0016
+  abstract: "The increasingly fast development and expansion of recommender systems technology over the last two and a half decades, along with the exponential growth of online social networks in the last few years, has given place to the concurrence of the two areas in several directions. The present chapter focuses on a specific area within this confluence: the recommendation of people to connect with in social networks. We analyze the specifics of contact suggestion as a very particular recommendation task, where both the target users and the target items are people. We give an overview of the most relevant state of the art algorithms in this area, including methods that were originally developed with slightly different problems in mind. We present a global empirical comparison of the reviewed algorithms in order to get a perspective of their comparative performance. We conclude discussing future possible directions for research and development in this area."

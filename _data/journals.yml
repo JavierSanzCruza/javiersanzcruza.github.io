@@ -1,0 +1,28 @@
+- title: Effective Contact Recommendation in Social Networks by Adaptation of Information Retrieval Models
+  authors:
+    - J. Sanz-Cruzado
+    - P. Castells
+    - C. Macdonald
+    - I. Ounis
+  journal: Information Processing & Management
+  volume: 57
+  issue: 5
+  articleid: 102285
+  abstract: >+
+    We investigate a novel perspective to the development of effective algorithms for contact recommendation in social networks, where the problem consists of automatically predicting people that a given user may wish or benefit from connecting to in the network. Specifically, we explore the connection between contact recommendation and the text information retrieval (IR) task, by investigating the adaptation of IR models (classical and supervised) for recommending people in social networks, using only the structure of these networks.
+    
+    We first explore the use of adapted unsupervised IR models as direct standalone recommender systems. Seeking additional effectiveness enhancements, we further explore the use of IR models as neighbor selection methods, in place of common similarity measures, in user-based and item-based nearest-neighbors (kNN) collaborative filtering approaches. On top of this, we investigate the application of learning to rank approaches borrowed from text IR to achieve additional improvements.
+   
+    We report thorough experiments over data obtained from Twitter and Facebook where we observe that IR models, particularly BM25, are competitive compared to state-of-the art contact recommendation methods. We provide further empirical analysis of the additional effectiveness that can be achieved by the integration of IR models into kNN and learning to rank schemes. Our research shows that the IR models are effective in three roles: as direct contact recommenders, as neighbor selectors in collaborative filtering and as samplers and features in learning to rank.
+  keywords: 
+    - social networks
+    - recommender systems
+    - contact recommendation
+    - information retrieval models
+    - collaborative filtering
+    - k nearest neighbors
+    - learning to rank
+  link: http://ir.ii.uam.es/pubs/ipm2020.pdf
+  doi: https://doi.org/10.1016/j.ipm.2020.102285
+  code: https://github.com/ir-uam/IR-models-4-contact-recommendation
+  date: September 2020

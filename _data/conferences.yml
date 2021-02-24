@@ -1,3 +1,50 @@
+- title: "Axiomatic Analysis of Contact Recommendation Methods in Social Networks: An IR Perspective"
+  authors:
+    - J. Sanz-Cruzado
+    - C. Macdonald
+    - I. Ounis
+    - P. Castells
+  conference: 42nd European Conference on Information Retrieval (ECIR 2020)
+  venue: Online
+  date: April 2020
+  book: Lecture Notes in Computer Science
+  volume: 12035
+  pages: 157-190
+  abstract: >+
+    Contact recommendation is an important functionality in many social network scenarios including Twitter and Facebook, since they can help grow the social networks of users by suggesting, to a given user, people they might wish to follow. Recently, it has been shown that classical information retrieval (IR) weighting models – such as BM25 – can be adapted to effectively recommend new social contacts to a given user. However, the exact properties that make such adapted contact recommendation models effective at the task are as yet unknown. In this paper, inspired by new advances in the axiomatic theory of IR, we study the existing IR axioms for the contact recommendation task. Our theoretical analysis and empirical findings show that while the classical axioms related to term frequencies and term discrimination seem to havea positive impact on the recommendation effectiveness, those related to length normalization tend to be not desirable for the task.
+  keywords: 
+    - social networks
+    - recommender systems
+    - contact recommendation
+    - information retrieval models
+    - axiomatic information retrieval
+  link: http://ir.ii.uam.es/pubs/ecir2020.pdf
+  doi: https://doi.org/10.1007/978-3-030-45439-5_12
+  slides: https://www.slideshare.net/JavierSanzCruzadoPui/ecir-2020-axiomatic-analysis-of-contact-recommendation-methods-in-social-networks-an-ir-perspective
+  code: https://github.com/ir-uam/contact-rec-axioms
+  video: https://www.youtube.com/watch?v=wX6OaNPtadY&t=17539s
+
+- title: A Simple Multi-Armed Nearest-Neighbor Bandit for Interactive Recommendation
+  authors:
+    - J. Sanz-Cruzado
+    - P. Castells
+  conference: 13th ACM Conference on Recommender Systems (RecSys 2019)
+  venue: Copenhagen, Denmark
+  date: September 2019
+  pages: 358-362
+  doi: https://doi.org/10.1145/3298689.3347040
+  link: http://ir.ii.uam.es/pubs/recsys2019-jsanzcruzado.pdf
+  poster: http://ir.ii.uam.es/pubs/recsys2019-jsanzcruzado-poster.pdf
+  abstract: >+
+    Contact recommendation has become a common functionality in online social platforms, and an established research topic in the social networks and recommender systems fields. Predicting and recommending links has been mainly addressed to date as an accuracy-targeting problem. In this paper we put forward a different perspective, considering that correctly predicted links may not be all equally valuable. Contact recommendation brings an opportunity to drive the structural evolution of a social network towards desirable properties of the network as a whole, beyond the sum of the isolated gains for the individual users to whom recommendations are delivered - global properties that we may want to assess and promote as explicit recommendation targets.
+    In this perspective, we research the definition of relevant diversity metrics drawing from social network analysis concepts, and linking to prior diversity notions in recommender systems. In particular, we elaborate on the notion of weak tie recommendation as a means to enhance the structural diversity of networks. In order to show the signification of the proposed metrics, we report experiments with Twitter data illustrating how state of the art contact recommendation methods compare in terms of our metrics; we examine the tradeoff with accuracy, and we show that diverse link recommendations result in a corresponding diversity enhancement in the flow of information through the network, with potential implications in mitigating filter bubbles.
+  keywords:
+    - recommender systems
+    - multi-armed bandits
+    - Thompson sampling
+    - interactive recommendation
+    - k nearest neighbors
+
 - title: Information Retrieval Models for Contact Recommendation in Social Networks
   authors: 
     - J. Sanz-Cruzado
@@ -5,11 +52,19 @@
   conference: 41st European Conference on Information Retrieval (ECIR 2019)
   venue: Cologne, Germany
   date: April 2019
+  book: Lecture Notes in Computer Science
+  volume: 11437
+  pages: 148-163
   link: http://ir.ii.uam.es/pubs/ecir2019.pdf
-  tags:
+  doi: https://doi.org/10.1007/978-3-030-15712-8_10
+  abstract: The fast growth and development of online social networks has posed new challenges for information retrieval and, as a particular case, recommender systems. A particularly compelling problem in this context is recommending network edges, that is, automatically predicting people that a given user may wish or benefit from connecting to in the network. This task has interesting particularities compared to more traditional recommendation domains, a salient one being that recommended items belong to the same space as the users they are recommended to. In this paper, we investigate the connection between the contact recommendation and the text retrieval tasks. Specifically, we research the adaptation of IR models for recommending contacts in social networks. We report experiments over data downloaded from Twitter where we observe that IR models, particularly BM25, are competitive compared to state-of-the art contact recommendation methods. We further find that IR models have additional advantages in computational efficiency, and allow for fast incremental updates of recommendations as the network grows.
+  keywords:
     - social networks
+    - recommender systems
     - contact recommendation
-    - text information retrieval
+    - information retrieval models
+    - collaborative filtering
+  slides: https://www.slideshare.net/JavierSanzCruzadoPui/ecir-2019-information-retrieval-models-for-contact-recommendation-in-social-networks
 
 - title: Enhancing Structural Diversity in Social Networks by Recommending Weak Ties
   authors:
@@ -19,10 +74,17 @@
   venue: Vancouver, Canada
   date: October 2018
   pages: 233-241
+  doi: https://doi.org/10.1145/3240323.3240371
   link: http://ir.ii.uam.es/pubs/recsys2018-jsanzcruzado.pdf
   slides: http://es.slideshare.net/JavierSanzCruzadoPui/recsys-2018-enhancing-structural-diversity-in-social-networks-by-recommending-weak-ties
   poster: http://ir.ii.uam.es/pubs/recsys2018-jsanzcruzado-poster.pdf
-  tags:
+  video: https://www.youtube.com/watch?v=jKMjVibQA2o&list=PLaZufLfJumb97F5iAcZ6nx6AWg6sy1cJ5&index=43
+  abstract: >+
+    Contact recommendation has become a common functionality in online social platforms, and an established research topic in the social networks and recommender systems fields. Predicting and recommending links has been mainly addressed to date as an accuracy-targeting problem. In this paper we put forward a different perspective, considering that correctly predicted links may not be all equally valuable. Contact recommendation brings an opportunity to drive the structural evolution of a social network towards desirable properties of the network as a whole, beyond the sum of the isolated gains for the individual users to whom recommendations are delivered - global properties that we may want to assess and promote as explicit recommendation targets.
+    In this perspective, we research the definition of relevant diversity metrics drawing from social network analysis concepts, and linking to prior diversity notions in recommender systems. In particular, we elaborate on the notion of weak tie recommendation as a means to enhance the structural diversity of networks. In order to show the signification of the proposed metrics, we report experiments with Twitter data illustrating how state of the art contact recommendation methods compare in terms of our metrics; we examine the tradeoff with accuracy, and we show that diverse link recommendations result in a corresponding diversity enhancement in the flow of information through the network, with potential implications in mitigating filter bubbles.
+  keywords:
+    - social networks
+    - recommender systems
     - contact recommendation
     - diversity
     - novelty
@@ -31,3 +93,22 @@
     - weak tie
     - evaluation
     - metric
+
+- title: Recommending Contacts in Social Networks Using Information Retrieval Models
+  authors: 
+    - J. Sanz-Cruzado
+    - S.M. Pepa
+    - P. Castells
+  conference: 5th Spanish Conference on Information Retrieval (CERI 2018)
+  venue: Zaragoza, Spain
+  date: June 2018
+  articleid: 19
+  pages: 1-8
+  doi: https://doi.org/10.1145/3230599.3230619
+  abstract: The fast growth and development of online social networks has posed new challenges for information retrieval and, as a particular case, recommender systems. A particularly compelling problem in this context is recommending network edges, that is, automatically predicting people that a given user may wish or benefit from connecting to in the network. This task has interesting particularities compared to more traditional recommendation domains, a salient one being that recommended items belong to the same space as the users they are recommended to. In this paper, we investigate the connection between the contact recommendation and the text retrieval tasks. Specifically, we research the adaptation of IR models for recommending contacts in social networks. We report experiments over data downloaded from Twitter where we observe that IR models, particularly BM25, are competitive compared to state-of-the art contact recommendation methods. We further find that IR models have additional advantages in computational efficiency, and allow for fast incremental updates of recommendations as the network grows.
+  keywords:
+    - social networks
+    - recommender systems
+    - contact recommendation
+    - information retrieval models
+    - collaborative filtering

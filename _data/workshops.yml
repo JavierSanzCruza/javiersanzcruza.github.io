@@ -7,15 +7,23 @@
   venue: Cologne, Germany
   date: April 2019
   link: http://ir.ii.uam.es/pubs/somepeas2019.pdf
-  tags:
-    - link prediction
-    - social network analysis
+  doi: https://doi.org/10.1007/978-3-030-52485-2_9
+  book: Communications in Computer and Information Science
+  volume: 1245
+  pages: 79-94
+  keywords:
+    - social networks
     - recommender systems
-    - evaluation
-    - novelty
+    - contact recommendation
     - diversity
-    - weak link
-    - structural diversity
+    - novelty
+    - redundancy
+    - social network analysis
+    - weak tie
+    - evaluation
+    - metric
+  abstract: Link prediction has mainly been addressed as an accuracy-targeting problem in social network analysis. We discuss different perspectives on the problem considering other dimensions and effects that the link prediction methods may have on the network where they are applied. Specifically, we consider the structural effects the methods can have if the predicted links are added to the network. We consider further utility dimensions beyond prediction accuracy, namely novelty and diversity. We adapt specific metrics from social network analysis, recommender systems and information retrieval, and we empirically observe the effect of a set of link prediction algorithms over Twitter data.
+
 
 - title: Structural Novelty and Diversity in Link Prediction
   authors: 
@@ -27,7 +35,18 @@
   venue: Lyon, France
   date: April 2018
   link: http://ir.ii.uam.es/pubs/msm2018-short.pdf
-  tags:
+  doi: https://doi.org/10.1145/3184558.3191576
+  abstract: "Link prediction has mainly been addressed as an accuracy-targeting problem in the social networks field. We discuss different perspectives on the problem considering other dimensions and effects that the link prediction methods may have on the social network where they are applied. Specifically, we consider the structural effects the prediction can have if the predicted links are added to the network. We consider further utility dimensions beyond prediction accuracy, namely novelty and diversity. We discuss the adaptation, for this purpose, of specific network, novelty and diversity metrics from social network analysis, recommender systems, and information retrieval."
+  book: Companion of The Web Conference 2018
+  pages: 1347-1351
+  keywords:
     - social networks
+    - recommender systems
     - contact recommendation
-    - text information retrieval
+    - diversity
+    - novelty
+    - redundancy
+    - social network analysis
+    - weak tie
+    - evaluation
+    - metric

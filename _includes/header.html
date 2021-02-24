@@ -4,7 +4,7 @@
   		<span class="mdl-layout__title">{{ site.title }}</span>
   	</div>
     <div class="mdl-layout__header-row mdl-layout--large-screen-only theme-navigation-row">
-      <nav class="mdl-navigation">
+      <nav class="mdl-navigation theme-nav">
       	{% for item in site.data.navigation %}
         <a class="mdl-navigation__link {% if page.title==item.name %} is-active {% endif %}" href="{{item.link}}">{{item.name}}</a>
         {% endfor %}
@@ -12,9 +12,9 @@
     </div>
   </header>
   <div class="mdl-layout__drawer mdl-layout--small-screen-only theme-drawer">
-    <nav class="mdl-navigation">
+    <nav class="mdl-navigation theme-drawer-aux">
 		{% for item in site.data.navigation %}
-        <a class="mdl-navigation__link {% if page.title==item.name %} is-active {% endif %}" href="{{item.link}}">{{item.name}}</a>
+        <a class="mdl-navigation__link {% if page.title==item.name %} is-active {% endif %}" href="{{item.link}}" style = "color:black;">{{item.name}}</a>
         {% endfor %}
     </nav>
   </div>
