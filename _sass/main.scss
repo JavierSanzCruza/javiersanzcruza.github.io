@@ -1,6 +1,6 @@
 body 
 {
-	background-color: #D5F2C7
+	background-color: #e8e8e8
 }
 
 .theme-header {
@@ -76,6 +76,7 @@ body
 	line-height: 20px;
 	color: black;
 }
+
 .theme-navigation-row .is-active:after {
 	content: "";
 	width: 70%;
@@ -93,12 +94,12 @@ body
   margin-right : auto;
   margin-top : 20px;
   margin-bottom: 0px;
-  padding-top: 80px;
 }
 
 .publications-div {
 	text-align : center;
 	width : 90%;
+	margin: auto;
 }
 
 
@@ -169,7 +170,73 @@ body
   width: 150px;
   margin-bottom: 20px;
   margin-top: 5px;
-  border: 1px solid #f2f3;
+  border: 5px solid rgba(255,255,255,0.4);
+  box-shadow: inset 0 0 0 0 rgba(200,95,66,.4),inset 0 0 0 16px rgba(255,255,255,.6),0 1px 2px rgba(0,0,0,.1);
+  box-sizing: border-box;
+
+}
+
+.profile {
+	margin : auto;
+	text-align : center;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.profile-text {
+	line-height: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	padding-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+#profile-text {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 28;
+	font-style: normal;
+}
+
+.sidenav {
+	background-color: #08054f;
+	color: white;
+	height: 100%;
+}
+
+ul .collapsible {
+  	width: 72vw;
+  }
+
+.sidenav li > a {
+	box-shadow: 0px 1px 5px black;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	background-color: darkslateblue;
+	padding: 0 0;
+	font-size: 16px;
+}
+
+.sidenav-trigger {
+	display : none;
+}
+
+.sidenav li .material-icons {
+	float:left;
+	line-height: 45px;
+	width: 50px;
+	text-align: center;
+	font-size: 27px;
+}
+
+.menu-text {
+	padding-left: 5%;
+	margin-left: 50px;
+	line-height: 45px;
+	box-shadow: -3px 0 5px -4px black;
+	box-sizing: border-box;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -183,9 +250,36 @@ body
   	display: none;
   }
 
-  .main-div {
-  	padding-top: 20px;
+  main {
+  	padding-left: 0px;
+  }
+
+  ul .collapsible {
+  	width: 90%;
+  }
+
+  .sidenav-trigger {
+  	display : block;
+  	height : 40px;
+  	line-height: 40px;
+  	background-color:  #08054f;
+  	padding-left: 5px;
+  	color: white;
+  }
+
+  .sidenav-trigger a i .material-icons {
+  	line-height : 40px;
   }
 
 
 }
+
+ header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }

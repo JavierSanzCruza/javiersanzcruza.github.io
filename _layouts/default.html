@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 {% include head.html %}
 
-<body>
+<body>       
+        
 {% include header.html %}
-
+<main>
 <div class="main-div">
-	<div class="column left">
+	
+<!--/. Sidebar navigation -->
+	<!-- <div class="column left">
 		<p id="name">Javier Sanz-Cruzado</p>
 		 <img id="avatar" src="/assets/img/avatar2.jpg" alt="Avatar"> 
 		<p id="descr"> PhD candidate. <br/>
 		IRG@UAM </p>
-	</div>
-	<div class="column right">
+	</div> -->
 		{{ content }}
-	</div>
 </div>
+</main>
 
 {% include footer.html %}
 </body>

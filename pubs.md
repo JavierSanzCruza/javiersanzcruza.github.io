@@ -3,8 +3,11 @@ layout: default
 title: Publications
 ---
 <div class="publications-div">
+<div style="align: left; font-size:28px">Publications</div>
+<hr class="solid">
+<p> Here, you shall find the different articles we have published in scientific journals, conferences, workshops, etc. For each category, articles are ordered from more recent to older.</p>
 <h5>Journal publications</h5>
-<ul class = "collapsible" style="width: 72vw">
+<ul class = "collapsible">
 	{% for pub in site.data.journals %}
     <li>
         <div class = "collapsible-header" style="text-align:left;"><i class="material-icons">expand_more</i>
@@ -59,7 +62,7 @@ title: Publications
     {% endfor %}
 </ul>
 <h5>Conference publications</h5>
-<ul class = "collapsible" style="width: 72vw">
+<ul class = "collapsible">
 	{% for pub in site.data.conferences %}
     <li>
         <div class = "collapsible-header" style="text-align:left"><i class="material-icons">expand_more</i>
@@ -125,7 +128,7 @@ title: Publications
 </ul>
 
 <h5>Book chapters</h5>
-<ul class = "collapsible" style="width: 72vw">
+<ul class = "collapsible">
 	{% for pub in site.data.books %}
     <li>
         <div class = "collapsible-header" style="text-align:left"><i class="material-icons">expand_more</i>
@@ -196,7 +199,7 @@ title: Publications
 
 
 <h5>Workshop publications</h5>
-<ul class = "collapsible" style="width: 72vw">
+<ul class = "collapsible">
 	{% for pub in site.data.workshops %}
     <li>
         <div class = "collapsible-header" style="text-align:left"><i class="material-icons">expand_more</i>

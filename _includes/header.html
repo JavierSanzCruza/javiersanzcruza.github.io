@@ -1,6 +1,5 @@
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header theme-header">
-  	<div class="mdl-layout__header-row">
+  <header>
+  	<!--<div class="mdl-layout__header-row">
   		<span class="mdl-layout__title">{{ site.title }}</span>
   	</div>
     <div class="mdl-layout__header-row mdl-layout--large-screen-only theme-navigation-row">
@@ -16,5 +15,31 @@
 		{% for item in site.data.navigation %}
         <a class="mdl-navigation__link {% if page.title==item.name %} is-active {% endif %}" href="{{item.link}}" style = "color:black;">{{item.name}}</a>
         {% endfor %}
-    </nav>
+    </nav> -->
+    
+    <ul class="sidenav sidenav-fixed" id="slide-out" >
+      <li class="profile">
+          <h4 id="profile-text">Javier Sanz-Cruzado</h4>
+          <img id="avatar" src="/assets/img/avatar3.jpg"/>
+          <br/>
+          <span class="profile-text">
+              PhD student <br/>
+              Information Retrieval Group </br>
+              Universidad Autónoma de Madrid
+          </span>
+       </li>
+      {% for item in site.data.navigation %}
+      <li>
+        
+        <a href="{{item.link}}">
+          <div class="material-icons">{{item.icon}}</div>
+          <div class="menu-text"><b>{{item.name}}</b></div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    
+    <div class="sidenav-trigger" data-target="slide-out" style="width:100%">
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons" style="line-height:40px">menu</i></a>
   </div>
+</header>
