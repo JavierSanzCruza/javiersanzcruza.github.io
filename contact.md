@@ -70,7 +70,7 @@ title: Contact
 	</div>
 </a>
 
-<a href="https://scholar.google.com/citations?user=w_kgThgAAAAJ&hl=es">
+<a href="https://orcid.org/0000-0002-7829-5174">
 	<div class="mdc-card my-card">
 		<div class="contact-card-left">
 	 		<img src="/assets/img/orcid.png" />
