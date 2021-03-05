@@ -116,7 +116,6 @@ body
 
 .collapsible a {
 	color: rgb(11, 58, 138);
-	overflow-wrap: break-word;
 }
 
 .abstract-body {
@@ -127,6 +126,7 @@ body
 .publications-div ul {
 	box-sizing: initial;
 	-webkit-box-sizing: initial;
+	word-break: break-word;
 }
 
 .abstract {
