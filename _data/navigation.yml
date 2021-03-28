@@ -1,18 +1,24 @@
 - name: About me
   link: /
   icon: person
-- name: Research
-  link: /research
-  icon: science
-- name: CV
-  link: /cv
-  icon: work
+# - name: Research
+#  link: /research
+#  icon: science
+# - name: CV
+#  link: /cv
+#  icon: work
 - name: Publications
   link: /pubs
   icon: menu_book
-- name: Software
-  link: /software
-  icon: computer
+#- name: Theses
+#  link: /theses
+#  icon: book
+#- name: Talks
+#  link: /talks
+#  icon: volume_up
+#- name: Software
+#  link: /software
+#  icon: computer
 - name: Contact
   link: /contact
   icon: local_post_office

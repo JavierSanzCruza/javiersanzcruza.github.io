@@ -1,6 +1,7 @@
 body 
 {
-	background-color: #d9f3f9
+	background-color: #d9f3f9;
+	font-family: 'Lato', sans-serif;
 	/* #e8e8e8 */
 }
 
@@ -101,8 +102,8 @@ body
 	text-align : center;
 	width : 90%;
 	margin: auto;
+	clear:both;
 }
-
 
 .theme-nav {
 	-webkit-box-shadow: none;
@@ -245,62 +246,37 @@ ul .collapsible {
 	box-sizing: border-box;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1024px) {
-  .right {
-    width: 100%;
-    margin: 0;
-  }
-  
-  .left {
-  	display: none;
-  }
-
-  main {
-  	padding-left: 0px;
-  }
-
-  ul .collapsible {
-  	width: 90%;
-  }
-
-  .sidenav-trigger {
-  	display : block;
-  	height : 40px;
-  	line-height: 40px;
-  	background-color:  #08054f;
-  	padding-left: 5px;
-  	color: white;
-  }
-
-  .sidenav-trigger a i .material-icons {
-  	line-height : 40px;
-  }
-
-  a .my-card {
-	display: block;
-	margin-bottom: 16px;
-	margin-left: 16px;
-	margin-right: 16px;
-	width: 90%;
-	display: inline-block;
-	}
-
-
-
+#intro-photo
+{
+	width: 350px; 
+	float:left;
+	text-align:center;
+	margin-right: 20px;
+	margin-bottom: 30px;
 }
 
- header, main, footer {
-      padding-left: 300px;
-    }
+.intro-photo-text
+{
+	position:absolute;
+	width: 350px;
+	float:left;
+	text-align: left;
+	top: 72%;
+	color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.7);
+	height: 28%;
+}
 
-    @media only screen and (max-width : 992px) {
-      header, main, footer {
-        padding-left: 0;
-      }
-    }
+header, main, footer 
+{
+	padding-left: 300px;
+}
 
- .mdc-card {
+.mdc-card 
+{
     border-radius: 4px;
     background-color: #fff;
     background-color: var(--mdc-theme-surface, #fff);
@@ -312,7 +288,8 @@ ul .collapsible {
     padding: 16px;
 }
 
-.card__title {
+.card__title 
+{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-size: 1.25rem;
@@ -320,7 +297,8 @@ ul .collapsible {
     font-weight: 500;
 }
 
-.card__title-centered {
+.card__title-centered 
+{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-size: 1.25rem;
@@ -328,7 +306,8 @@ ul .collapsible {
     font-weight: 500;
 }
 
-.card__subhead-centered {
+.card__subhead-centered 
+{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-size: 1.25rem;
@@ -336,7 +315,8 @@ ul .collapsible {
     font-weight: 500;
 }
 
-.card__subhead {
+.card__subhead 
+{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-size: 1.25rem;
@@ -345,7 +325,8 @@ ul .collapsible {
     opacity: .6;
 }
 
-.contact-card-left .material-icons {
+.contact-card-left .material-icons 
+{
 	float:left;
 	line-height: 3rem;
 	width: 50px;
@@ -355,14 +336,16 @@ ul .collapsible {
 
 }
 
-.contact-card-right {
+.contact-card-right 
+{
 	margin-left: 50px;
 	border-left: 1px solid #ccc;
 	padding-left: 10px;
 
 }
 
-.my-card {
+.my-card 
+{
 	display: block;
 	margin-bottom: 16px;
 	margin-left: 16px;
@@ -371,11 +354,13 @@ ul .collapsible {
 	display: inline-block;
 }
 
-a .my-card {
+a .my-card 
+{
 	color: black;
 }
 
-.my-card img {
+.my-card img 
+{
 	float:left;
 	line-height: 3rem;
 	width: 50px;
@@ -384,7 +369,88 @@ a .my-card {
 	padding-right: 10px;
 }
 
-.contact-info {
+.contact-info 
+{
 	display: inline;
 	text-align: center;
+}
+
+.descr
+{
+	margin-top: 5px;
+}
+
+#intro-photo-text-title
+{
+	font-size:20px;
+	margin-bottom: 0px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1024px) 
+{
+	.right 
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	.left 
+	{
+		display: none;
+	}
+
+	header, main, footer 
+	{
+        padding-left: 0;
+    }
+
+	ul .collapsible 
+	{
+		width: 90%;
+	}
+
+	.sidenav-trigger 
+	{
+		display : block;
+		height : 40px;
+		line-height: 40px;
+		background-color:  #08054f;
+		padding-left: 5px;
+		color: white;
+	}
+
+	.sidenav-trigger a i .material-icons 
+	{
+		line-height : 40px;
+	}
+
+	a .my-card 
+	{
+		display: block;
+		margin-bottom: 16px;
+		margin-left: 16px;
+		margin-right: 16px;
+		width: 90%;
+		display: inline-block;
+	}
+
+}
+
+
+@media screen and (max-width: 470px) 
+{
+	#intro-photo
+	{
+		width: 100%;
+		margin-bottom: 20px;
+		float: inherit;
+		margin-right: 0px;
+	}
+
+	.intro-photo-text
+	{
+		width: 100%;
+	}
+
 }
