@@ -33,4 +33,7 @@ title: Home
 <div class="publications-div news-div">
 	<div style="align: left; font-size:28px">Latest news</div>
 	<hr class="solid">
+	<ul>
+		<li style="list-style-type: circle"><b>29th March 2021:</b> I gave a talk for the HaiVis group at the Pontificia Universidad Católica de Chile, titled "Recomendación de contactos en redes sociales mediante métodos de búsqueda". Slides (in Spanish) <a href="/assets/slides/haivis-puc-chile-marzo-2021.pdf">here</a>.</li>
+	</ul>
 </div>
