@@ -10,9 +10,9 @@
 - name: Publications
   link: /pubs
   icon: menu_book
-#- name: Theses
-#  link: /theses
-#  icon: book
+- name: Thesis
+  link: /thesis
+  icon: book
 #- name: Talks
 #  link: /talks
 #  icon: volume_up
