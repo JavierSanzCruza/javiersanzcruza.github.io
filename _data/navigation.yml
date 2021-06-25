@@ -4,9 +4,9 @@
 # - name: Research
 #  link: /research
 #  icon: science
-# - name: CV
-#  link: /cv
-#  icon: work
+- name: CV
+  link: /cv
+  icon: work
 - name: Publications
   link: /pubs
   icon: menu_book
@@ -16,9 +16,9 @@
 #- name: Talks
 #  link: /talks
 #  icon: volume_up
-#- name: Software
-#  link: /software
-#  icon: computer
+- name: Software
+  link: https://github.com/JavierSanzCruza
+  icon: computer
 - name: Contact
   link: /contact
   icon: local_post_office
