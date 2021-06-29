@@ -13,9 +13,9 @@ title: Home
 		<div class="intro-photo-text">
 			<p id="intro-photo-text-title">Javier Sanz-Cruzado</p>
 			<ul class="descr">
-				<li>PhD</li>
-				<li>Information Retrieval Group</li>
-				<li>Universidad Autónoma de Madrid</li>
+				<li style="list-style-type: none;">PhD</li>
+				<li style="list-style-type: none;">Information Retrieval Group</li>
+				<li style="list-style-type: none;">Universidad Autónoma de Madrid</li>
 			</ul>
 		</div>
 		</div>
