@@ -309,7 +309,7 @@ title: CV
         <div style="align: left; font-size:24px; margin-top: 30px; margin-bottom: 30px;">Grants, scholarships and awards</div>
         <div class="about">
             <ul>
-                <li><b>Excelence scholarship in BSc studies.</b>Regional Government of Madrid. 2012 to 2015 (every year)</li>
+                <li><b>Excelence scholarship in BSc studies.</b> Regional Government of Madrid. 2012 to 2015 (every year)</li>
                 <li><b>Research scholarship in MSc studies.</b> Universidad Autónoma de Madrid. October 2015 to October 2016</li>
                 <li><b>PhD scholarship (FPI grant).</b> Universidad Autónoma de Madrid. March 2017 to September 2018.</li>
                 <li><b>PhD scholarship (FPU grant).</b> Spanish Government. September 2018 to May 2021</li>
@@ -322,7 +322,7 @@ title: CV
         <div style="align: left; font-size:24px; margin-top: 30px; margin-bottom: 30px;">Technical skills</div>
         <div class="about">
             <ul>
-                <li><b>Programming languages:</b>Java, C, Python, PHP, Matlab</li>
+                <li><b>Programming languages:</b> Java, C, Python, PHP, Matlab</li>
                 <li><b>Databases:</b> MySQL, PostgreSQL</li>
                 <li><b>Operating systems</b> Microsoft Windows (XP, Vista, 7, 8, 10), Unix (Ubuntu, CentOS)</li>
                 <li><b>Other tools:</b> Maven, Git</li>
