@@ -27,6 +27,45 @@ title: CV
         <div style="align: left; font-size:24px; margin-top: 30px; margin-bottom: 30px;">Professional experience</div>
         <div class="container">
            <ul class="timeline">
+               <li>
+                 <!-- begin timeline-time -->
+                 <div class="timeline-time">
+                    <span class="time">November 2021</span>
+                    <span class="time">Present</span>
+                 </div>
+                 <div class="timeline-time-small">
+                    <span class="time">11/2021</span>
+                    <span class="time">Present</span>
+                </div>
+                 <!-- end timeline-time -->
+                 <!-- begin timeline-icon -->
+                 <div class="timeline-icon">
+                    <a href="javascript:;">&nbsp;</a>
+                 </div>
+                 <!-- end timeline-icon -->
+                 <!-- begin timeline-body -->
+                 <div class="timeline-body">
+                    <div class="timeline-header">
+                       <span class="username">Research associate</span>
+                       <br/>
+                       <span class="text-muted">Terrier Team, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">http://terrierteam.dcs.gla.ac.uk</a>)</span>
+                    </div>
+                    <div class="timeline-content">
+                       <p>
+                          Research on recommendation in the financial domain, working on the Infinitech project.
+                       </p>
+                    </div>
+                 </div>
+                <!--<div class = "collapsible-header" style="text-align:left;"><i class="material-icons">expand_more</i>
+                    <p>Research associate</p>
+                    <p>University of Glasgow</p>
+                </div>
+                <div class = "collapsible-body abstract">
+                <span><b>Abstract: </b> Recommendation in the financial domain
+                </span>
+                </div>-->
+                 <!-- end timeline-body -->
+              </li>
               <li>
                  <!-- begin timeline-time -->
                  <div class="timeline-time">
@@ -61,7 +100,7 @@ title: CV
                     <p>Universidad Autónoma de Madrid</p>
                 </div>
                 <div class = "collapsible-body abstract">
-                <span><b>Abstract: </b> What I did
+                <span><b>Abstract: </b> Research on people recommendation.
                 </span>
                 </div>-->
                  <!-- end timeline-body -->
@@ -100,7 +139,7 @@ title: CV
                     <p>Universidad Autónoma de Madrid</p>
                 </div>
                 <div class = "collapsible-body abstract">
-                <span><b>Abstract: </b> What I did
+                <span><b>Abstract: </b> IR models for people recommendation.
                 </span>
                 </div>-->
                  <!-- end timeline-body -->
@@ -140,7 +179,7 @@ title: CV
                     <p>Universidad Autónoma de Madrid</p>
                 </div>
                 <div class = "collapsible-body abstract">
-                <span><b>Abstract: </b> What I did
+                <span><b>Abstract: </b> Web development.
                 </span>
                 </div>-->
                  <!-- end timeline-body -->
@@ -371,6 +410,7 @@ title: CV
                         <li><i>Subreviewer</i> for The Web Conference 2021 (TheWebConf 2021).</li>
                         <li><i>Short paper program committee member</i> for the 44th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021).</li>
                         <li><i>Program committee member</i> for the 15th ACM Conference on Recommender Systems (RecSys 2021)</li>
+                        <li><i>Program committee member</i> for the 44th European Conference on Information Retrieval (ECIR 2022)</li>
                     </ul></li>
             </ul>
         </div>
