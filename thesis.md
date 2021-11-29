@@ -19,7 +19,7 @@ title: PhD Thesis
 			<hr class="solid">
 			<div style="text-align: left">
 				<a style="color: rgb(0,0,139)" href="https://javiersanzcruza.github.io/jsanzcruzado-phdthesis.pdf"><u>Thesis document</u></a> <br/>
-				<a style="color: rgb(0,0,139)" href="https://javiersanzcruza.github.io/jsanzcruzado-phdthesis.pdf"><u>Defense slides</u></a>
+				<a style="color: rgb(0,0,139)" href="https://javiersanzcruza.github.io/thesis-slides.pdf"><u>Defense slides</u></a>
 			</div> <br/>
 			<div style="font-size:20px; text-align:left">Abstract</div>
 			<hr class="solid">
