@@ -1,3 +1,19 @@
+- title: "RELISON: A Framework for Link Recommendation in Social Networks"
+  authors:
+    - J. Sanz-Cruzado
+    - P. Castells
+  conference: 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022). Resource track.
+  venue: Madrid, Spain
+  date: July 2022
+  abstract: >+
+    Link recommendation is an important and compelling problem at the intersection of recommender systems and online social networks. Given a user, link recommenders identify people in the platform the user might be interested in interacting with. We present RELISON, an extensible framework for running link recommendation experiments. The library provides a wide range of algorithms, along with tools for evaluating the produced recommendations. RELISON includes algorithms and metrics that consider the potential effect of recommendations on the properties of online social networks. For this reason, the library also implements network structure analysis metrics, community detection algorithms, and network diffusion simulation functionalities. The library code and documentation is available at https://github.com/ir-uam/RELISON.
+  keywords: 
+    - social networks
+    - recommender systems
+    - contact recommendation
+    - link prediction
+  code: https://github.com/ir-uam/RELISON
+
 - title: "Axiomatic Analysis of Contact Recommendation Methods in Social Networks: An IR Perspective"
   authors:
     - J. Sanz-Cruzado
