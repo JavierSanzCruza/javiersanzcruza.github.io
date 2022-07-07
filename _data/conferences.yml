@@ -12,6 +12,8 @@
     - recommender systems
     - contact recommendation
     - link prediction
+  # link: https://javiersanzcruza.github.io/assets/relison-sigir2022-cameraready.pdf
+  poster: https://javiersanzcruza.github.io/assets/poster/sigir2022-poster.pdf
   code: https://github.com/ir-uam/RELISON
 
 - title: "Axiomatic Analysis of Contact Recommendation Methods in Social Networks: An IR Perspective"
@@ -34,7 +36,7 @@
     - contact recommendation
     - information retrieval models
     - axiomatic information retrieval
-  link: http://ir.ii.uam.es/pubs/ecir2020.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/ecir2020.pdf
   doi: https://doi.org/10.1007/978-3-030-45439-5_12
   slides: https://www.slideshare.net/JavierSanzCruzadoPui/ecir-2020-axiomatic-analysis-of-contact-recommendation-methods-in-social-networks-an-ir-perspective
   code: https://github.com/ir-uam/contact-rec-axioms
@@ -49,8 +51,8 @@
   date: September 2019
   pages: 358-362
   doi: https://doi.org/10.1145/3298689.3347040
-  link: http://ir.ii.uam.es/pubs/recsys2019-jsanzcruzado.pdf
-  poster: http://ir.ii.uam.es/pubs/recsys2019-jsanzcruzado-poster.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/recsys2019.pdf
+  poster: https://javiersanzcruza.github.io/assets/posters/recsys2019-poster.pdf
   code: https://github.com/ir-uam/kNNBandit
   abstract: >+
     Contact recommendation has become a common functionality in online social platforms, and an established research topic in the social networks and recommender systems fields. Predicting and recommending links has been mainly addressed to date as an accuracy-targeting problem. In this paper we put forward a different perspective, considering that correctly predicted links may not be all equally valuable. Contact recommendation brings an opportunity to drive the structural evolution of a social network towards desirable properties of the network as a whole, beyond the sum of the isolated gains for the individual users to whom recommendations are delivered - global properties that we may want to assess and promote as explicit recommendation targets.
@@ -72,7 +74,7 @@
   book: Lecture Notes in Computer Science
   volume: 11437
   pages: 148-163
-  link: http://ir.ii.uam.es/pubs/ecir2019.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/ecir2019.pdf
   doi: https://doi.org/10.1007/978-3-030-15712-8_10
   abstract: The fast growth and development of online social networks has posed new challenges for information retrieval and, as a particular case, recommender systems. A particularly compelling problem in this context is recommending network edges, that is, automatically predicting people that a given user may wish or benefit from connecting to in the network. This task has interesting particularities compared to more traditional recommendation domains, a salient one being that recommended items belong to the same space as the users they are recommended to. In this paper, we investigate the connection between the contact recommendation and the text retrieval tasks. Specifically, we research the adaptation of IR models for recommending contacts in social networks. We report experiments over data downloaded from Twitter where we observe that IR models, particularly BM25, are competitive compared to state-of-the art contact recommendation methods. We further find that IR models have additional advantages in computational efficiency, and allow for fast incremental updates of recommendations as the network grows.
   keywords:
@@ -92,9 +94,9 @@
   date: October 2018
   pages: 233-241
   doi: https://doi.org/10.1145/3240323.3240371
-  link: http://ir.ii.uam.es/pubs/recsys2018-jsanzcruzado.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/recsys2018.pdf
   slides: http://es.slideshare.net/JavierSanzCruzadoPui/recsys-2018-enhancing-structural-diversity-in-social-networks-by-recommending-weak-ties
-  poster: http://ir.ii.uam.es/pubs/recsys2018-jsanzcruzado-poster.pdf
+  poster: https://javiersanzcruza.github.io/assets/posters/recsys2019-poster.pdf
   video: https://www.youtube.com/watch?v=jKMjVibQA2o&list=PLaZufLfJumb97F5iAcZ6nx6AWg6sy1cJ5&index=43
   abstract: >+
     Contact recommendation has become a common functionality in online social platforms, and an established research topic in the social networks and recommender systems fields. Predicting and recommending links has been mainly addressed to date as an accuracy-targeting problem. In this paper we put forward a different perspective, considering that correctly predicted links may not be all equally valuable. Contact recommendation brings an opportunity to drive the structural evolution of a social network towards desirable properties of the network as a whole, beyond the sum of the isolated gains for the individual users to whom recommendations are delivered - global properties that we may want to assess and promote as explicit recommendation targets.
@@ -121,6 +123,7 @@
   date: June 2018
   articleid: 19
   pages: 1-8
+  link: https://javiersanzcruza.github.io/assets/papers/ceri2018.pdf
   doi: https://doi.org/10.1145/3230599.3230619
   abstract: The fast growth and development of online social networks has posed new challenges for information retrieval and, as a particular case, recommender systems. A particularly compelling problem in this context is recommending network edges, that is, automatically predicting people that a given user may wish or benefit from connecting to in the network. This task has interesting particularities compared to more traditional recommendation domains, a salient one being that recommended items belong to the same space as the users they are recommended to. In this paper, we investigate the connection between the contact recommendation and the text retrieval tasks. Specifically, we research the adaptation of IR models for recommending contacts in social networks. We report experiments over data downloaded from Twitter where we observe that IR models, particularly BM25, are competitive compared to state-of-the art contact recommendation methods. We further find that IR models have additional advantages in computational efficiency, and allow for fast incremental updates of recommendations as the network grows.
   keywords:

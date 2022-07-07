@@ -6,7 +6,7 @@
   conference: 41st European Conference on Information Retrieval (ECIR 2019)
   venue: Cologne, Germany
   date: April 2019
-  link: http://ir.ii.uam.es/pubs/somepeas2019.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/somepeas2019.pdf
   doi: https://doi.org/10.1007/978-3-030-52485-2_9
   book: Communications in Computer and Information Science
   volume: 1245
@@ -34,7 +34,7 @@
   conference: The Web Conference 2018 (WWW 2018)
   venue: Lyon, France
   date: April 2018
-  link: http://ir.ii.uam.es/pubs/msm2018-short.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/msm2018-short.pdf
   doi: https://doi.org/10.1145/3184558.3191576
   abstract: "Link prediction has mainly been addressed as an accuracy-targeting problem in the social networks field. We discuss different perspectives on the problem considering other dimensions and effects that the link prediction methods may have on the social network where they are applied. Specifically, we consider the structural effects the prediction can have if the predicted links are added to the network. We consider further utility dimensions beyond prediction accuracy, namely novelty and diversity. We discuss the adaptation, for this purpose, of specific network, novelty and diversity metrics from social network analysis, recommender systems, and information retrieval."
   book: Companion of The Web Conference 2018

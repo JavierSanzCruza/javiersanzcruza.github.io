@@ -22,7 +22,7 @@
     - collaborative filtering
     - k nearest neighbors
     - learning to rank
-  link: http://ir.ii.uam.es/pubs/ipm2020.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/ipm2020.pdf
   doi: https://doi.org/10.1016/j.ipm.2020.102285
   code: https://github.com/ir-uam/IR-models-4-contact-recommendation
   date: September 2020
