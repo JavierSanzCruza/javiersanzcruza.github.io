@@ -13,7 +13,7 @@
     - contact recommendation
     - link prediction
   # link: https://javiersanzcruza.github.io/assets/relison-sigir2022-cameraready.pdf
-  poster: https://javiersanzcruza.github.io/assets/poster/sigir2022-poster.pdf
+  poster: https://javiersanzcruza.github.io/assets/posters/sigir2022-poster.pdf
   code: https://github.com/ir-uam/RELISON
 
 - title: "Axiomatic Analysis of Contact Recommendation Methods in Social Networks: An IR Perspective"
