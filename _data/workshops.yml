@@ -1,3 +1,28 @@
+- title: On Transaction-Based Metrics as a Proxy for Profitability of Financial Asset Recommendations
+  authors: 
+    - J. Sanz-Cruzado
+    - R. McCreadie
+    - N. Droukas
+    - C. Macdonald
+    - I. Ounis
+  workshop: 3rd Workshop on Personalization & Recommender Systems in Financial Services (FinRec 2022)
+  conference: 41st European Conference on Information Retrieval (ECIR 2019)
+  venue: Seattle, USA
+  date: September 2022
+  #link: https://javiersanzcruza.github.io/assets/papers/somepeas2019.pdf
+  #doi: https://doi.org/10.1007/978-3-030-52485-2_9
+  #book: Communications in Computer and Information Science
+  #volume: 1245
+  #pages: 79-94
+  keywords:
+    - recommender systems
+    - financial recommendation
+    - evaluation
+    - metric
+    - profitability
+    - interactions
+  abstract: "The use of recommender systems to assist in the provision of financial asset and portfolio recommendations to investors is increasing, spanning a wide range of algorithms and techniques. Several strategies have been devised for the evaluation of financial asset recommendations, with the two most prominent strategies measuring (a) the money customers could obtain if they followed the recommendations (profitability-based evaluation) and (b) the ability of models to predict future customer investments (transaction-based evaluation). If customers are effective investors, we would expect these two perspectives to be positively correlated. In this paper, we perform experiments over a new large-scale financial recommendation dataset with real customer investment transactions to validate this assumption. Surprisingly, we find that transaction and profitability-based metrics are in fact negatively correlated and moreover, algorithms that actively try to learn from past customer transactions lose money over the mid-term. A thorough analysis of model performance and customer transaction patterns over time illustrates that this is due to a set of confounding factors, namely: customers failing to beat the market with their investments; a tendency for the customers to favour different investment lengths; and the impact of global events such as the Covid-19 pandemic."
+
 - title: Beyond Accuracy in Link Prediction
   authors: 
     - J. Sanz-Cruzado
