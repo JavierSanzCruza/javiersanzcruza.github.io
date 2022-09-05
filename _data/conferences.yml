@@ -96,7 +96,7 @@
   doi: https://doi.org/10.1145/3240323.3240371
   link: https://javiersanzcruza.github.io/assets/papers/recsys2018.pdf
   slides: http://es.slideshare.net/JavierSanzCruzadoPui/recsys-2018-enhancing-structural-diversity-in-social-networks-by-recommending-weak-ties
-  poster: https://javiersanzcruza.github.io/assets/posters/recsys2019-poster.pdf
+  poster: https://javiersanzcruza.github.io/assets/posters/recsys2018-poster.pdf
   video: https://www.youtube.com/watch?v=jKMjVibQA2o&list=PLaZufLfJumb97F5iAcZ6nx6AWg6sy1cJ5&index=43
   abstract: >+
     Contact recommendation has become a common functionality in online social platforms, and an established research topic in the social networks and recommender systems fields. Predicting and recommending links has been mainly addressed to date as an accuracy-targeting problem. In this paper we put forward a different perspective, considering that correctly predicted links may not be all equally valuable. Contact recommendation brings an opportunity to drive the structural evolution of a social network towards desirable properties of the network as a whole, beyond the sum of the isolated gains for the individual users to whom recommendations are delivered - global properties that we may want to assess and promote as explicit recommendation targets.
