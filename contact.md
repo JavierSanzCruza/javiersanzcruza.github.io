@@ -17,7 +17,7 @@ title: Contact
 		</div>
 		<div class="contact-card-right">
 			<div class="card__title">E-mail</div>
-			<div class="card__subhead">jsanzcruzado@gmail.com</div>
+			<div class="card__subhead">javier.sanz-cruzadopuig@glasgow.ac.uk</div>
 		</div>
 	</div>
 </a>
