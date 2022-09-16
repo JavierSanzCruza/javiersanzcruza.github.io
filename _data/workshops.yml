@@ -14,6 +14,7 @@
   #book: Communications in Computer and Information Science
   #volume: 1245
   #pages: 79-94
+  slides: https://javiersanzcruza.github.io/assets/slides/finrec2022.pdf
   keywords:
     - recommender systems
     - financial recommendation
