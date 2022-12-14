@@ -9,7 +9,7 @@ title: Home
 <div class="publications-div">
 	<div class="about" >
 		<div id="intro-photo" style="position:relative">
-		<img style="width: inherit;" src="/assets/img/full-photo-3.jpg"/>
+		<img style="width: inherit;" src="/assets/img/full-photo-4.jpg"/>
 		<div class="intro-photo-text">
 			<p id="intro-photo-text-title">Javier Sanz-Cruzado</p>
 			<ul class="descr">
@@ -35,6 +35,7 @@ title: Home
 	<div style="align: left; font-size:28px">Latest news</div>
 	<hr class="solid">
 	<ul>
+		<li style="text-align: justify; list-style-type: circle"><b>12th December 2022:</b> During the IR Away Day at University of Glasgow, I presented a tutorial on how to use the network library RELISON, one of the outcomes of the work done during my PhD. Slides from that presentation <a href="/assets/slides/relison.pdf">here</a>  </li>
 		<li style="text-align: justify; list-style-type: circle"><b>31th August 2022:</b> Paper with <a href="http://dcs.gla.ac.uk/~richardm/Home/">Richard McCreadie</a>, Nikolaos Droukas, <a href="http://www.dcs.gla.ac.uk/~craigm/">Craig Macdonald</a> and <a href="http://www.dcs.gla.ac.uk/~ounis/">Iadh Ounis</a> accepted at the FinRec workshop at RecSys 2022: "On Transaction-Based Metrics as a Proxy for Profitability of Financial Asset Recommendations".</li>
 		<li style="text-align: justify; list-style-type: circle"><b>4th April 2022:</b> Paper with <a href="https://castells.github.io/">Pablo Castells</a> accepted at the Resource Track of SIGIR 2022: "RELISON: A Framework for Link Recommendation in Social Networks".</li>
 		<li style="text-align: justify; list-style-type: circle"><b>21st February 2022:</b> I gave a talk at the IR seminars at the University of Glasgow, titled "Recommending people in social networks: algorithmic models and network diversity". Slides (in English) <a href="/assets/slides/ir-seminar-glasgow-february-2022.pdf">here</a>.</li>
