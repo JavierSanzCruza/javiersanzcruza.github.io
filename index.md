@@ -9,7 +9,7 @@ title: Home
 <div class="publications-div">
 	<div class="about" >
 		<div id="intro-photo" style="position:relative">
-		<img style="width: inherit;" src="/assets/img/full-photo-4.jpg"/>
+		<img style="width: inherit;" src="/assets/img/full-photo-4.png"/>
 		<div class="intro-photo-text">
 			<p id="intro-photo-text-title">Javier Sanz-Cruzado</p>
 			<ul class="descr">
