@@ -45,14 +45,59 @@ title: CV
                  <!-- end timeline-icon -->
                  <!-- begin timeline-body -->
                  <div class="timeline-body">
-                    <div class="timeline-header">
-                       <span class="username">Research associate</span>
-                       <br/>
-                       <span class="text-muted">Terrier Team, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">http://terrierteam.dcs.gla.ac.uk</a>)</span>
+                     <div class="timeline-header">
+                        <table>
+                           <tr style="border-bottom: 0px">
+                              <td style="max-width: 130px;"><img src="/assets/img/UoG_colour.png" alt="University of Glasgow" style="max-width:200px"></td>
+                              <td>
+                                 <span class="username">Research associate</span><br/>
+                                 <span class="text-muted">Terrier Team, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">http://terrierteam.dcs.gla.ac.uk</a>)</span>
+                              </td>
+                           </tr>
+                        </table>
                     </div>
                     <div class="timeline-content">
                        <p>
-                          Research on recommendation in the financial domain, working on the Infinitech project.
+                           Research on recommendation in the financial domain.
+                           <table>
+                              <tr>
+                                 <td><img src="/assets/img/ICURe explore.png" alt="ICURe Explore" style="max-width:100px"></td>
+                                 <td></td>
+                                 <td>Participation on the ICURe Explore programme (October 2023 cohort).<br/>
+                                     <b>Team:</b> FAR-AI<br/>
+                                     <b>Role:</b> Entrepreneurial Lead<br/>
+                                     <b>Funder:</b> InnovateUK<br/>
+                                     <b>Period:</b> October 2023 to January 2024<br/>
+                                     Market analysis and hypothesis testing on commercialization of financial asset recommendation technologies.</td>
+                              </tr>
+                              <tr>
+                                 <td><img src="/assets/img/FAR-AI-logo.png" alt="FAR-AI" style="max-width:100px"></td>
+                                 <td></td>
+                                 <td><b>Project title:</b> FAR-AI: Deployment of AI-based Financial Asset Recommendation System<br/>
+                                     <b>Role:</b> Primary investigator<br/>
+                                     <b>Funder:</b> EPSRC (Impact Acceleration Account project)<br/>
+                                     <b>Period:</b> August 2023 to October 2023<br/>
+                                     Development of an investment platform for the UK market.</td>
+                              </tr>
+                              <tr>
+                                 <td><img src="/assets/img/ppc-fi-logo.png" alt="PPC-FI" style="max-width:100px"></td>
+                                 <td></td>
+                                 <td><b>Project title:</b> PPC-FI: Personalized Portfolio Construction for Financial Investments<br/>
+                                     <b>Role:</b> Primary investigator<br/>
+                                     <b>Funder:</b> EPSRC (Impact Acceleration Account project)<br/>
+                                     <b>Period:</b> April 2023 to July 2023<br/>
+                                     Research on portfolio management and optimization functionalities. Integration on an investment recommendation platform for financial advisors, in collaboration with the National Bank of Greece</td>
+                              </tr>
+                              <tr>
+                                 <td><img src="/assets/img/infinitech.png" alt="Infinitech" style="max-width:100px"></td>
+                                 <td></td>
+                                 <td><b>Project title:</b> Infinitech<br/>
+                                     <b>Role:</b> Post-doctoral researcher<br/>
+                                     <b>Funder:</b> European Comission (Horizon 2020)<br/>
+                                     <b>Period:</b> November 2021 to March 2023<br/>
+                                     Research on recommendations in the financial domain. Development of an investment recommendation platform for financial advisors, in collaboration with the National Bank of Greece</td>
+                              </tr>
+                           </table>
                        </p>
                     </div>
                  </div>
@@ -85,9 +130,15 @@ title: CV
                  <!-- begin timeline-body -->
                  <div class="timeline-body">
                     <div class="timeline-header">
-                       <span class="username">PhD Student</span>
-                       <br/>
-                       <span class="text-muted">Information Retrieval group, Universidad Autónoma de Madrid (<a href="https://ir.ii.uam.es">https://ir.ii.uam.es</a>)</span>
+                        <table>
+                          <tr style="border-bottom: 0px">
+                              <td style="max-width: 160px;"><img src="/assets/img/uam-logo.jpg" alt="Universidad Autónoma de Madrid" style="max-width:200px"></td>
+                              <td>
+                                 <span class="username">Predoctoral researcher</span><br/>
+                                 <span class="text-muted">Information Retrieval group, Universidad Autónoma de Madrid (<a href="https://ir.ii.uam.es">https://ir.ii.uam.es</a>).</span>
+                              </td>
+                           </tr>
+                        </table>
                     </div>
                     <div class="timeline-content">
                        <p>
@@ -95,15 +146,6 @@ title: CV
                        </p>
                     </div>
                  </div>
-                <!--<div class = "collapsible-header" style="text-align:left;"><i class="material-icons">expand_more</i>
-                    <p>PhD Student</p>
-                    <p>Universidad Autónoma de Madrid</p>
-                </div>
-                <div class = "collapsible-body abstract">
-                <span><b>Abstract: </b> Research on people recommendation.
-                </span>
-                </div>-->
-                 <!-- end timeline-body -->
               </li>
               <li>
                  <!-- begin timeline-time -->
@@ -124,9 +166,15 @@ title: CV
                  <!-- begin timeline-body -->
                  <div class="timeline-body">
                     <div class="timeline-header">
-                       <span class="username">Visiting researcher</span>
-                       <br/>
-                       <span class="text-muted">Terrier Team, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/">http://terrierteam.dcs.gla.ac.uk/</a>)</span>
+                        <table>
+                          <tr style="border-bottom: 0px">
+                              <td style="max-width: 130px;"><img src="/assets/img/UoG_colour.png" alt="University of Glasgow" style="max-width:200px"></td>
+                              <td>
+                                 <span class="username">Visiting researcher</span><br/>
+                                 <span class="text-muted">Terrier Team, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">http://terrierteam.dcs.gla.ac.uk</a>)</span>
+                              </td>
+                           </tr>
+                        </table>
                     </div>
                     <div class="timeline-content">
                        <p>
@@ -163,9 +211,15 @@ title: CV
                  <!-- begin timeline-body -->
                  <div class="timeline-body">
                     <div class="timeline-header">
-                       <span class="username">Programmer</span>
-                       <br/>
-                       <span class="text-muted">EveryView S.L.</span>
+                        <table>
+                          <tr style="border-bottom: 0px">
+                              <td style="max-width: 5px;"><img src="/assets/img/everyview-logo.jpg" alt="Everyview" style="max-width:100px"></td>
+                              <td>
+                                 <span class="username">Programmer</span><br/>
+                                 <span class="text-muted">Everyview S.L.</span>
+                              </td>
+                           </tr>
+                        </table>
                     </div>
                     <div class="timeline-content">
                         <p><b>Spanish Language Route project</b></p>
@@ -209,12 +263,18 @@ title: CV
                     <a href="javascript:;">&nbsp;</a>
                  </div>
                  <!-- end timeline-icon -->
-                 <!-- begin timeline-body -->
+                 <!-- begin timeline-body -->                    
                  <div class="timeline-body">
                     <div class="timeline-header">
-                       <span class="username">PhD in Computer Science and Telecommunication</span>
-                       <br/>
-                       <span class="text-muted">Universidad Autónoma de Madrid</span>
+                        <table>
+                          <tr style="border-bottom: 0px">
+                              <td style="max-width: 100px;"><img src="/assets/img/uam-logo.jpg" alt="Universidad Autónoma de Madrid" style="max-width:200px"></td>
+                              <td>
+                                 <span class="username">PhD in Computer Science and Telecommunication</span><br/>
+                                 <span class="text-muted">Universidad Autónoma de Madrid</span>
+                              </td>
+                           </tr>
+                        </table>
                     </div>
                     <div class="timeline-content">
                        <p>
@@ -243,10 +303,16 @@ title: CV
                  <!-- end timeline-icon -->
                  <!-- begin timeline-body -->
                  <div class="timeline-body">
-                    <div class="timeline-header">
-                       <span class="username">MSc in Information and Communications Technology Research and Innovation</span>
-                       <br/>
-                       <span class="text-muted">Universidad Autónoma de Madrid</span>
+                     <div class="timeline-header">
+                        <table>
+                          <tr style="border-bottom: 0px">
+                              <td style="max-width: 165px;"><img src="/assets/img/uam-logo.jpg" alt="Universidad Autónoma de Madrid" style="max-width:200px"></td>
+                              <td>
+                                 <span class="username">MSc in Information and Communications Technology Research and Innovation</span><br/>
+                                 <span class="text-muted">Universidad Autónoma de Madrid</span>
+                              </td>
+                           </tr>
+                        </table>
                     </div>
                     <div class="timeline-content">
                        <p>
@@ -277,9 +343,15 @@ title: CV
                  <!-- begin timeline-body -->
                  <div class="timeline-body">
                     <div class="timeline-header">
-                       <span class="username">MSc in Computer Science</span>
-                       <br/>
-                       <span class="text-muted">Universidad Autónoma de Madrid</span>
+                        <table>
+                          <tr style="border-bottom: 0px">
+                              <td style="max-width: 65px;"><img src="/assets/img/uam-logo.jpg" alt="Universidad Autónoma de Madrid" style="max-width:200px"></td>
+                              <td>
+                                 <span class="username">MSc in Computer Science</span><br/>
+                                 <span class="text-muted">Universidad Autónoma de Madrid</span>
+                              </td>
+                           </tr>
+                        </table>
                     </div>
                     <div class="timeline-content">
                        <p>
@@ -307,11 +379,17 @@ title: CV
                  <!-- end timeline-icon -->
                  <!-- begin timeline-body -->
                  <div class="timeline-body">
-                    <div class="timeline-header">
-                       <span class="username">Double BSc in Computer Science and Mathematics</span>
-                       <br/>
-                       <span class="text-muted">Universidad Autónoma de Madrid</span>
-                    </div>
+                     <div class="timeline-header">
+                        <table>
+                           <tr style="border-bottom: 0px">
+                              <td style="max-width: 105px;"><img src="/assets/img/uam-logo.jpg" alt="Universidad Autónoma de Madrid" style="max-width:200px"></td>
+                              <td>
+                                 <span class="username">Double BSc in Computer Science and Mathematics</span><br/>
+                                 <span class="text-muted">Universidad Autónoma de Madrid</span>
+                              </td>
+                              </tr>
+                        </table>
+                     </div>
                     <div class="timeline-content">
                        <p>
                           <b>GPA:</b> 9.23 / 10 (top 3% of my year)<br/>
@@ -330,13 +408,16 @@ title: CV
         <div style="align: left; font-size:24px; margin-top: 30px; margin-bottom: 30px;">Teaching</div>
         <div class="about">
             <ul>
+               <li>Guest lecture on evaluation and production of recommender systems at the recommender systems course at the IE University (in Spanish, April 2022).</li>
                 <li>Lab teaching of "Information search and mining", 4th year BSc on Computer Science. January to May 2018, 2019 and 2020.</li>
                 <li>Lab teaching of "Analysis of algorithms", 2nd year BSc on Computer Science. September 2019 to January 2020.</li>
                 <li><b>BSc thesis supervision</b>
                     <ul style="padding-left: 25px; list-style-type: circle;">
-                        <li>Miranda, B. Information diffusion modeling on Twitter. June 2018.</li>
-                        <li>Amor, A. Link prediction and recommendation in social networks. June 2019.</li>
-                        <li>López, E. Multi-armed bandits in recommendation. June 2019.</li>
+                        <li>Mousa, J. TradeMind. University of Glasgow. August 2023.</li>
+                        <li>Lunny, L. iTrade: The financial portfolio generation tool. University of Glasgow. August 2023.</li>
+                        <li>Miranda, B. Information diffusion modeling on Twitter. Universidad Autónoma de Madrid. June 2018.</li>
+                        <li>Amor, A. Link prediction and recommendation in social networks. Universidad Autónoma de Madrid. June 2019.</li>
+                        <li>López, E. Multi-armed bandits in recommendation. Universidad Autónoma de Madrid. June 2019.</li>
                     </ul>
                 </li>
             </ul>
@@ -361,11 +442,11 @@ title: CV
         <div style="align: left; font-size:24px; margin-top: 30px; margin-bottom: 30px;">Technical skills</div>
         <div class="about">
             <ul>
-                <li><b>Programming languages:</b> Java, C, Python, PHP, Matlab</li>
-                <li><b>Databases:</b> MySQL, PostgreSQL</li>
+                <li><b>Programming languages:</b> Java, C, Python, PHP, Matlab.</li>
+                <li><b>Databases:</b> MySQL, PostgreSQL, QuestDB.</li>
                 <li><b>Operating systems</b> Microsoft Windows (XP, Vista, 7, 8, 10), Unix (Ubuntu, CentOS)</li>
-                <li><b>Other tools:</b> Maven, Git</li>
-                <li><b>General purpose software:</b> LaTeX, Microsoft Office (Word, Excel & Powerpoint)</li>
+                <li><b>Other tools:</b> Maven, Git, Docker.</li>
+                <li><b>General purpose software:</b> LaTeX, Microsoft Office (Word, Excel & Powerpoint).</li>
             </ul>
         </div>
         <a style="font-size:16px; margin-top:10px; margin-bottom:10px;" href="#index">Back to top</a>
@@ -406,11 +487,16 @@ title: CV
                     <ul style="padding-left: 25px; list-style-type: circle;">
                         <li><i>Reviewer</i> of ACM Transactions on Information Systems journal (ACM TOIS).</li>
                         <li><i>Reviewer</i> of the User Modeling and User-adapted Interaction journal (UMUI).</li>
+                        <li><i>Reviewer</i> of the ACM Transactions on Web journal (ACM TWEB).</li>
+                        <li><i>Reviewer</i> of the AI Communications journal.</li>
                         <li><i>Reviewer</i> for the latest-breaking results track for the 14th ACM Conference on Recommender Systems (RecSys 2020).</li>
                         <li><i>Subreviewer</i> for The Web Conference 2021 (TheWebConf 2021).</li>
                         <li><i>Short paper program committee member</i> for the 44th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021).</li>
                         <li><i>Program committee member</i> for the 15th ACM Conference on Recommender Systems (RecSys 2021)</li>
+                        <li><i>Program committee member</i> for the 45th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022)</li>
                         <li><i>Program committee member</i> for the 44th European Conference on Information Retrieval (ECIR 2022)</li>
+                        <li><i>Program committee member</i> for the 16th ACM Conference on Recommender Systems (RecSys 2022)</li>
+                        <li><i>Program committee member</i> for the 46th European Conference on Information Retrieval (ECIR 2024)</li>
                     </ul></li>
             </ul>
         </div>
