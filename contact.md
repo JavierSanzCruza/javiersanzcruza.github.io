@@ -22,7 +22,8 @@ title: Contact
 	</div>
 </a>
 
-<a href="https://www.linkedin.com/in/javier-sanz-cruzado-puig-607344172/">
+<!-- a href="https://www.linkedin.com/in/javier-sanz-cruzado-puig-607344172/" -->
+<a href="https://www.linkedin.com/in/javier-sanz-cruzado-puig/">
 	<div class="mdc-card my-card">	
 		<div class="contact-card-left">
 	 		<img src="/assets/img/linkedin.png" />
