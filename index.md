@@ -35,6 +35,7 @@ title: Home
 	<div style="align: left; font-size:28px">Latest news</div>
 	<hr class="solid">
 	<ul>
+		<li style="text-align: justify; list-style-type: circle"><b>22nd December 2023</b> Demo paper with Edward Richards and <a href="http://dcs.gla.ac.uk/~richardm/Home/">Richard McCreadie</a> accepted  at ECIR 2024: FAR-AI: A Modular Platform for Investment Recommendation in the Financial Domain.</li>
 		<li style="text-align: justify; list-style-type: circle"><b>9th October 2023:</b> As part of the Scottish Fintech Festival, we organized an event titled <i>"What's your next investment? Automated recommendations for the investors"</i>. Materials can be accessed <a href="https://javiersanzcruza.github.io/farai-workshop">here</a>.</li>
 		<li style="text-align: justify; list-style-type: circle"><b>12th December 2022:</b> During the IR Away Day at University of Glasgow, I presented a tutorial on how to use the network library RELISON, one of the outcomes of the work done during my PhD. Slides from that presentation <a href="/assets/slides/relison.pdf">here</a>  </li>
 		<li style="text-align: justify; list-style-type: circle"><b>31th August 2022:</b> Paper with <a href="http://dcs.gla.ac.uk/~richardm/Home/">Richard McCreadie</a>, Nikolaos Droukas, <a href="http://www.dcs.gla.ac.uk/~craigm/">Craig Macdonald</a> and <a href="http://www.dcs.gla.ac.uk/~ounis/">Iadh Ounis</a> accepted at the FinRec workshop at RecSys 2022: "On Transaction-Based Metrics as a Proxy for Profitability of Financial Asset Recommendations".</li>
