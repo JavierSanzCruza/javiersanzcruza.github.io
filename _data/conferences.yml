@@ -4,19 +4,14 @@
     - E. Richards
     - R. McCreadie
   conference: 46th European Conference on Information Retrieval (ECIR 2024). Demo track.
-  venue: Madrid, Spain
+  venue: Glasgow, Scotland
   date: March 2024
-  pages: 
   abstract: >+
     Financial asset recommendation (FAR) is an emerging sub-domain of the wider recommendation field that is concerned with recommending suitable financial assets to customers, with the expectation that those customers will invest capital into a subset of those assets. FAR is a particularly interesting sub-domain to explore, as unlike traditional movie or product recommendation, FAR solutions need to analyse and learn from a combination of time-series pricing data, company fundamentals, social signals and world events, relating the patterns observed to multi-faceted customer representations comprising profiling information, expectations and past investments. In this demo we will present a modular FAR platform; referred to as FAR-AI, with the goal of raising awareness and building a community around this emerging domain, as well as illustrate the challenges, design considerations and new research directions that FAR offers. The demo will comprise two components: 1) we will present the architecture of FAR-AI to attendees, to enable them to understand the how’s and the why’s of developing a FAR system; and 2) a live demonstration of FAR-AI as a customer-facing product, highlighting the differences in functionality between FAR solutions and traditional recommendation scenarios. The demo is supplemented by online-tutorial materials, to enable attendees new to this space to get practical experience with training FAR models. 
   keywords: 
     - recommender systems 
     - finance
     - machine learning
-  link: 
-  doi: 
-  poster: 
-  code: 
   video: https://www.youtube.com/watch?v=omEyrkheaqg
 - title: "RELISON: A Framework for Link Recommendation in Social Networks"
   authors:
