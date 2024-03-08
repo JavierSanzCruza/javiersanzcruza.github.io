@@ -8,18 +8,18 @@
     "text": "Javier Sanz-Cruzado"
   },
   "text": {
-    "more": "Dungeons \u0026 Dragons characters and relations map",
-    "intro": "Dungeons \u0026 Dragons characters and relations map",
-    "title": "Dungeons \u0026 Dragons graph"
+    "more": "",
+    "intro": "",
+    "title": "Obel\u0027s Garden"
   },
   "legend": {
-    "edgeLabel": "Relations",
-    "colorLabel": "Type of nodes",
-    "nodeLabel": "Characters"
+    "edgeLabel": "Relation",
+    "colorLabel": "Character type",
+    "nodeLabel": "Character"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Afiliación",
+    "groupSelectorAttribute": "type",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 5,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 18
+      "defaultLabelSize": 14
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 20
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
