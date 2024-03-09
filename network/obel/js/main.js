@@ -56,11 +56,13 @@ function initSigma(config) {
         defaultLabelBGColor: "#ddd",
         defaultHoverLabelBGColor: "#002147",
         defaultLabelHoverColor: "#fff",
-        labelThreshold: 5,
+        labelThreshold: 10,
         defaultEdgeType: "curve",
         hoverFontStyle: "bold",
         fontStyle: "bold",
-        activeFontStyle: "bold"
+        activeFontStyle: "bold",
+        defaultEdgeLabelSize: 14,
+        edgeLabelSize: "fixed"
     };
     
     if (config.sigma && config.sigma.graphProperties)	
@@ -68,9 +70,9 @@ function initSigma(config) {
     else
     	graphProps={
         minNodeSize: 1,
-        maxNodeSize: 7,
-        minEdgeSize: 0.2,
-        maxEdgeSize: 0.5
+        maxNodeSize: 20,
+        minEdgeSize: 1,
+        maxEdgeSize: 1
     	};
 	
 	if (config.sigma && config.sigma.mouseProperties) 
@@ -90,20 +92,15 @@ function initSigma(config) {
 
     dataReady = function() {//This is called as soon as data is loaded
 		a.clusters = {};
-        a.cluster_names = {},
 
 		a.iterNodes(
 			function (b) { //This is where we populate the array used for the group select box
-                const mydict = {
-                    color: b.color,
-                    name: b.attr.attributes["Afiliación"]
-                };
+
 				// note: index may not be consistent for all nodes. Should calculate each time. 
 				 // alert(JSON.stringify(b.attr.attributes[5].val));
 				// alert(b.x);
 				a.clusters[b.color] || (a.clusters[b.color] = []);
 				a.clusters[b.color].push(b.id);//SAH: push id not label
-                a.cluster_names[b.color] = b.attr.attributes["Afiliación"];
 			}
 		
 		);
@@ -282,7 +279,7 @@ function configSigmaElements(config) {
     $GP.bg2 = $(sigInst._core.domElements.bg2);
     var a = [],
         b,x=1;
-		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div>  ' + (sigInst.cluster_names[b]) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
     //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
@@ -513,7 +510,7 @@ function nodeActive(a) {
 				d = c.group;
 				f.push('<li class="cf" rel="' + c.color + '"><div class=""></div><div class="">' + d + "</div></li>");
 			}*/
-			f.push('<li class="membership"><a href="#' + c.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + c.name + "</a></li>");
+			f.push('<li class="membership"><a href="#' + c.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + c.name + "(" + c.label + ")</a></li>");
 		}
 		return f;
 	}
@@ -613,7 +610,7 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        $GP.info_name.html("<b>" + sigInst.cluster_names[a] + "</b>");
+        $GP.info_name.html("<b>" + a + "</b>");
         $GP.info_data.hide();
         $GP.info_p.html("Group Members:");
         $GP.info_link.find("ul").html(f.join(""));
