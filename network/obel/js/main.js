@@ -3,6 +3,8 @@ var sigInst, canvas, $GP
 //Load configuration file
 var config={};
 
+var datafile = data.json
+
 //For debug allow a config=file.json parameter to specify the config
 function GetQueryStringParams(sParam,defaultVal) {
     var sPageURL = ""+window.location;//.search.substring(1);//This might be causing error in Safari?
@@ -44,7 +46,7 @@ Object.size = function(obj) {
 };
 
 function initSigma(config) {
-	var data=config.data
+	var data=datafile
 	
 	var drawProps, graphProps,mouseProps;
 	if (config.sigma && config.sigma.drawingProperties) 
@@ -588,6 +590,11 @@ function nodeActive(a) {
 	$GP.info_donnees.show();
     sigInst.active = a;
     window.location.hash = b.label;
+}
+
+function changeGraph(value) {
+	datafile = value
+	setupGUI(config)
 }
 
 function showCluster(a) {

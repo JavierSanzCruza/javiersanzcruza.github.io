@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "",
-    "intro": "Dungeons \u0026 Dragons characters and relations map",
+    "intro": "",
     "title": "Obel\u0027s Garden"
   },
   "legend": {
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 5,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 18
+      "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 1,
-      "minEdgeSize": 1,
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 20
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
