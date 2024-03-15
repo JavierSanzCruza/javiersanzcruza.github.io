@@ -3,7 +3,7 @@ var sigInst, canvas, $GP
 //Load configuration file
 var config={};
 
-var datafile = data.json
+var datafile = 'data.json'
 
 //For debug allow a config=file.json parameter to specify the config
 function GetQueryStringParams(sParam,defaultVal) {
