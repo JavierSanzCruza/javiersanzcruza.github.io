@@ -94,15 +94,21 @@ function initSigma(config) {
 
     dataReady = function() {//This is called as soon as data is loaded
 		a.clusters = {};
+		a.cluster_names = {}
 
 		a.iterNodes(
 			function (b) { //This is where we populate the array used for the group select box
+				const mydict = {
+                    color: b.color,
+                    name: b.attr.attributes["affiliation"]
+                };
 
 				// note: index may not be consistent for all nodes. Should calculate each time. 
 				 // alert(JSON.stringify(b.attr.attributes[5].val));
 				// alert(b.x);
 				a.clusters[b.color] || (a.clusters[b.color] = []);
 				a.clusters[b.color].push(b.id);//SAH: push id not label
+                a.cluster_names[b.color] = b.attr.attributes["affiliation"];
 			}
 		
 		);
