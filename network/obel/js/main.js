@@ -85,7 +85,7 @@ function initSigma(config) {
         maxRatio: 20, // How far can we zoom in?
     	};
 	
-	document.getElementById("sigma-canvas").innerHTML = ""
+	document.getElementById("sigma-canvas").innerHTML = 
     var a = sigma.init(document.getElementById("sigma-canvas")).drawingProperties(drawProps).graphProperties(graphProps).mouseProperties(mouseProps);
     sigInst = a;
     a.active = !1;
@@ -282,7 +282,7 @@ function configSigmaElements(config) {
     $GP.bg2 = $(sigInst._core.domElements.bg2);
     var a = [],
         b,x=1;
-		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div>  ' + (sigInst.cluster_names[b]) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
     //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
@@ -533,7 +533,7 @@ function nodeActive(a) {
 
 	if (groupByDirection) {
 		size=Object.size(mutual);
-		f.push("<h2>Mututal (" + size + ")</h2>");
+		f.push("<h2>Mutual (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
 		size=Object.size(incoming);
 		f.push("<h2>Incoming (" + size + ")</h2>");
