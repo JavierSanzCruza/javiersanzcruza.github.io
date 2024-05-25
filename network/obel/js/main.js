@@ -85,7 +85,6 @@ function initSigma(config) {
         maxRatio: 20, // How far can we zoom in?
     	};
 	
-	document.getElementById("sigma-canvas") = ""
     var a = sigma.init(document.getElementById("sigma-canvas")).drawingProperties(drawProps).graphProperties(graphProps).mouseProperties(mouseProps);
     sigInst = a;
     a.active = !1;
@@ -122,10 +121,13 @@ function initSigma(config) {
 		configSigmaElements(config);
 	}
 
+	a.graph.clear()
+	a.refresh()
     if (data.indexOf("gexf")>0 || data.indexOf("xml")>0)
         a.parseGexf(data,dataReady);
     else
 	    a.parseJson(data,dataReady);
+
     gexf = sigmaInst = null;
 }
 
