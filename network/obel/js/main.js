@@ -121,7 +121,6 @@ function initSigma(config) {
 		configSigmaElements(config);
 	}
 
-	a.graph.clear()
 	a.refresh()
     if (data.indexOf("gexf")>0 || data.indexOf("xml")>0)
         a.parseGexf(data,dataReady);
