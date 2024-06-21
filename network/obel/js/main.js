@@ -121,10 +121,12 @@ function initSigma(config) {
 		configSigmaElements(config);
 	}
 
+	a.refresh()
     if (data.indexOf("gexf")>0 || data.indexOf("xml")>0)
         a.parseGexf(data,dataReady);
     else
 	    a.parseJson(data,dataReady);
+
     gexf = sigmaInst = null;
 }
 
