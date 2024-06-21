@@ -1,10 +1,67 @@
+- title: "University of Glasgow at the FinLLM Challenge Task: Adapting Llama for Financial News Abstractive Summarization"
+  authors:
+    - Lubingzhi Guo
+    - Javier Sanz-Cruzado
+    - Richard McCreadie
+  workshop: Joint Workshop of the 8th Financial Technology and Natural Language Processing (FinNLP) and the 1st Agent AI for Scenario Planning (AgentScen)
+  conference: 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)
+  venue: Jeju, Republic of Korea
+  date: August 2024
+  keywords:
+    - finance
+    - summarization
+    - large language models
+- title: "Stock Recommendations for Individual Investors: A Temporal Graph Network Approach with Mean-variance Efficient Learning"
+  authors:
+    - Youngbin Lee
+    - Yeyin Kim
+    - Javier Sanz-Cruzado
+    - Richard McCreadie
+    - Yongjae Lee
+  workshop: IJCAI 2024 Workshop on Recommender Systems in Finance (Fin-RecSys 2024)
+  conference: 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)
+  venue: Jeju, Republic of Korea
+  date: August 2024
+  keywords:
+    - recommender systems
+    - financial recommendation
+- title: Comparing the Impact of Financial Knowledge Graphs from Financial Reports and Wikidata in Asset Recommendation
+  authors:
+    - Lubingzhi Guo
+    - Javier Sanz-Cruzado
+    - Richard McCreadie
+  workshop: IJCAI 2024 Workshop on Recommender Systems in Finance (Fin-RecSys 2024)
+  conference: 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)
+  venue: Jeju, Republic of Korea
+  date: August 2024
+  keywords:
+    - knowledge graphs
+    - profitability prediction
+    - financial recommendation
+    - profitability
+- title: "FAR-Trans: An Investment Dataset for Financial Asset Recommendation"
+  authors:
+    - Javier Sanz-Cruzado
+    - Nikolaos Droukas
+    - Richard McCreadie
+  workshop: IJCAI 2024 Workshop on Recommender Systems in Finance (Fin-RecSys 2024)
+  conference: 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)
+  venue: Jeju, Republic of Korea
+  date: August 2024
+  keywords:
+    - recommender systems
+    - financial recommendation
+    - profitability
+    - interactions
+    - time series
+    - dataset
 - title: On Transaction-Based Metrics as a Proxy for Profitability of Financial Asset Recommendations
   authors: 
-    - J. Sanz-Cruzado
-    - R. McCreadie
-    - N. Droukas
-    - C. Macdonald
-    - I. Ounis
+    - Javier Sanz-Cruzado
+    - Richard McCreadie
+    - Nikolaos Droukas
+    - Craig Macdonald
+    - Iadh Ounis
   workshop: 3rd Workshop on Personalization & Recommender Systems in Financial Services (FinRec 2022)
   conference: 16th ACM Conference on Recommender Systems (RecSys 2022)
   venue: Seattle, USA
@@ -27,8 +84,8 @@
 
 - title: Beyond Accuracy in Link Prediction
   authors: 
-    - J. Sanz-Cruzado
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Pablo Castells
   workshop: 3rd Workshop on Social Media for Personalization and Search (SoMePeAS 2019)
   conference: 41st European Conference on Information Retrieval (ECIR 2019)
   venue: Cologne, Germany
@@ -54,9 +111,9 @@
 
 - title: Structural Novelty and Diversity in Link Prediction
   authors: 
-    - J. Sanz-Cruzado
-    - S.M. Pepa
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Sofía Marina Pepa
+    - Pablo Castells
   workshop: 9th International Workshop on Modeling Social Media (MSM 2018)
   conference: The Web Conference 2018 (WWW 2018)
   venue: Lyon, France
