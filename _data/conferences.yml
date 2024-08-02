@@ -1,8 +1,8 @@
 - title: "FAR-AI: A Modular Platform for Investment Recommendation in the Financial Domain"
   authors:
-    - J. Sanz-Cruzado
-    - E. Richards
-    - R. McCreadie
+    - Javier Sanz-Cruzado
+    - Edward Richards
+    - Richard McCreadie
   conference: 46th European Conference on Information Retrieval (ECIR 2024). Demo track.
   venue: Glasgow, Scotland
   date: March 2024
@@ -17,8 +17,8 @@
   poster: https://javiersanzcruza.github.io/assets/posters/ecir2024-poster.pdf
 - title: "RELISON: A Framework for Link Recommendation in Social Networks"
   authors:
-    - J. Sanz-Cruzado
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Pablo Castells
   conference: 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022). Resource track.
   venue: Madrid, Spain
   date: July 2022
@@ -38,10 +38,10 @@
 
 - title: "Axiomatic Analysis of Contact Recommendation Methods in Social Networks: An IR Perspective"
   authors:
-    - J. Sanz-Cruzado
-    - C. Macdonald
-    - I. Ounis
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Craig Macdonald
+    - Iadh Ounis
+    - Pablo Castells
   conference: 42nd European Conference on Information Retrieval (ECIR 2020)
   venue: Online
   date: April 2020
@@ -64,8 +64,8 @@
 
 - title: A Simple Multi-Armed Nearest-Neighbor Bandit for Interactive Recommendation
   authors:
-    - J. Sanz-Cruzado
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Pablo Castells
   conference: 13th ACM Conference on Recommender Systems (RecSys 2019)
   venue: Copenhagen, Denmark
   date: September 2019
@@ -86,8 +86,8 @@
 
 - title: Information Retrieval Models for Contact Recommendation in Social Networks
   authors: 
-    - J. Sanz-Cruzado
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Pablo Castells
   conference: 41st European Conference on Information Retrieval (ECIR 2019)
   venue: Cologne, Germany
   date: April 2019
@@ -107,8 +107,8 @@
 
 - title: Enhancing Structural Diversity in Social Networks by Recommending Weak Ties
   authors:
-    - J. Sanz-Cruzado
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Pablo Castells
   conference: 12th ACM Conference on Recommender Systems (RecSys 2018)
   venue: Vancouver, Canada
   date: October 2018
@@ -135,9 +135,9 @@
 
 - title: Recommending Contacts in Social Networks Using Information Retrieval Models
   authors: 
-    - J. Sanz-Cruzado
-    - S.M. Pepa
-    - P. Castells
+    - Javier Sanz-Cruzado
+    - Sofía Marina Pepa
+    - Pablo Castells
   conference: 5th Spanish Conference on Information Retrieval (CERI 2018)
   venue: Zaragoza, Spain
   date: June 2018
