@@ -37,7 +37,7 @@ title: Networks
     			<ul>
     				{% for link in net.altlinks %}
     				<li><a href="{{ link.link }}">{{link.description}}</a></li>
-    				{% end for %}
+    				{% endfor %}
     			</ul>
     		{% endif %}
     	</span>
