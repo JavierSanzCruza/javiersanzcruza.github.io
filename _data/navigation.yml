@@ -22,3 +22,6 @@
 - name: Contact
   link: /contact
   icon: local_post_office
+- name: Network
+  link: /network
+  icon: hub

@@ -1,0 +1,19 @@
+- title: Obel's Garden
+  link: https://javiersanzcruza.github.io/network/obel/
+  description: "Graph representing characters and connections between characters in a Dungeons & Dragons 3.5 game named Obel's Garden. This graph updates over time as the campaign is still ongoing."
+  updated: 9th August 2024
+- title: Providence Queen
+  link: https://javiersanzcruza.github.io/network/queen/
+  description: "Graph representing characters and connections between characters in a Dungeons & Dragons 3.5 game named Providence Queen. The graph only represents a snapshot of the game, as we stopped updating it."
+  updated: 2022
+- title: Financial workshop graph
+  link: https://javiersanzcruza.github.io/network/finance/
+  description: "Graph representing connections between organizers of machine learning workshops in the financial domain. Main representation displays their physical location on Earth, and colors indicate connected components within the graph. Further representations are available (see below)."
+  updated: 20th August 2024
+  altlinks:
+    - link: https://javiersanzcruza.github.io/network/finance/workshops
+      description: Map representation. Node colors represent workshops.
+    - link: https://javiersanzcruza.github.io/network/finance/graph_by_country
+      description: Network representation. Node colors represent country of affiliation of the organizers.
+    - link: https://javiersanzcruza.github.io/network/finance/graph_by_workshop
+      description: Network representation. Node colors represent workshops.

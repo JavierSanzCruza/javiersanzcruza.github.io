@@ -11,6 +11,7 @@
     - finance
     - summarization
     - large language models
+  abstract: "In this paper, we explore different approaches for aligning Large Language Models (LLMs) with the objectives of the financial abstractive summarization shared task. This shared task focuses on using LLM to abstract news into concise summaries. We investigate three common strategies: few-shot learning, fine-tuning, and reinforcement learning, to adapt LLMs for this purpose, with the fine-tuned model ranked first on the leaderboard."
 - title: "Stock Recommendations for Individual Investors: A Temporal Graph Network Approach with Mean-variance Efficient Learning"
   authors:
     - Youngbin Lee
@@ -25,6 +26,7 @@
   keywords:
     - recommender systems
     - financial recommendation
+  abstract: "In complex financial markets, recommender systems can play a crucial role in empowering individuals to make informed decisions. Existing studies predominantly focus on price prediction, but even the most sophisticated models cannot accurately predict stock prices. Also, many studies show that most individual investors do not follow established investment theories because they have their own preferences. Hence, the tricky point in stock recommendation is that recommendations should give good investment performance but also should not ignore individual preferences. To develop effective stock recommender systems, it is essential to consider three key aspects: 1) individual preferences, 2) portfolio diversification, and 3) temporal aspect of both stock features and individual preferences. In response, we develop the temporal graph network approach with mean-variance efficient learning PfoTGNRec, which can handle time-varying collaborative signals and incorporates diversification-enhancing learning. As a result, our model demonstrated superior performance compared to various baselines, including cutting-edge dynamic embedding models and existing stock recommendation models, in a sense that our model exhibited good investment performance while maintaining competitive in capturing individual preferences."
 - title: Comparing the Impact of Financial Knowledge Graphs from Financial Reports and Wikidata in Asset Recommendation
   authors:
     - Lubingzhi Guo
@@ -39,6 +41,7 @@
     - profitability prediction
     - financial recommendation
     - profitability
+  abstract: "Financial asset recommender (FAR) systems suggest investment assets to customers based on past market information. Many of these models choose those securities which they estimate to be more profitable for customers. Financial knowledge graphs (KGs)-- data structures containing information about assets and their relations to other involved entities (companies, people) -- have been one of the data sources exploited to drive asset selection. Although the construction of knowledge graphs from different sources (news, reports) has previously been investigated, there has been limited analysis of the effect these construction strategies have for FAR. In this work, we compare two different knowledge graphs representing U.S. stocks under a unified FAR framework: a knowledge graph crawled from a general knowledge base, Wikidata, and a knowledge graph built by extracting entities and relations from 10K financial reports using the GoLLIE open information extraction model. We show that integrating these KGs in FAR can lead up to 10.7% improvements in monthly ROI. However, the nature of these graphs makes algorithms prone to bias the recommendations towards different asset types."
 - title: "FAR-Trans: An Investment Dataset for Financial Asset Recommendation"
   authors:
     - Javier Sanz-Cruzado
@@ -55,6 +58,9 @@
     - interactions
     - time series
     - dataset
+  abstract: "Financial asset recommendation (FAR) is a sub-domain of recommender systems which identifies useful financial securities for investors, with the expectation that they will invest capital on the recommended assets. FAR solutions analyse and learn from multiple data sources, including time series pricing data, customer profile information and expectations, as well as past investments. However, most models have been developed over proprietary datasets, making a comparison over a common benchmark impossible. In this paper, we aim to solve this problem by introducing FAR-Trans, the first public dataset for FAR, containing pricing information and retail investor transactions acquired from a large European financial institution. We also provide a bench-marking comparison between eleven FAR algorithms over the data for use as future baselines"
+  link: https://javiersanzcruza.github.io/assets/papers/finrecsys-fartrans.pdf
+  doi: https://doi.org/10.48550/arXiv.2407.08692
 - title: On Transaction-Based Metrics as a Proxy for Profitability of Financial Asset Recommendations
   authors: 
     - Javier Sanz-Cruzado
