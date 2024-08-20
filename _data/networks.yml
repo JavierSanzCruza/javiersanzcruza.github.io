@@ -1,14 +1,24 @@
 - title: Obel's Garden
   link: https://javiersanzcruza.github.io/network/obel/
-  description: "Graph representing characters and connections between characters in a Dungeons & Dragons 3.5 game named Obel's Garden. This graph updates over time as the campaign is still ongoing."
+  description: "Graph representing the connections between characters in a Dungeons & Dragons campaign, titled 'Obel's Garden'. This campaign has been running weekly since January 2024 -- with 23 game sessions so far. This is an example of a directed graph where links express different connections. Multiple connections can exist between two different characters. The represented network aims to represent temporality (as both nodes and edges have associated timestamps). Future updates of the representation shall show the continuous evolution of the network. This graph is constantly updated as new game sessions occur."
   updated: 9th August 2024
+  keywords:
+    - Dungeons & Dragons
+    - directed
+    - multigraph
+    - unfinished
 - title: Providence Queen
   link: https://javiersanzcruza.github.io/network/queen/
-  description: "Graph representing characters and connections between characters in a Dungeons & Dragons 3.5 game named Providence Queen. The graph only represents a snapshot of the game, as we stopped updating it."
+  description: "Graph representing the connections between characters in a Dungeons & Dragons campaign, titled 'Providence Queen'. This campaign ran weekly since mid-late 2020 until January 2024. The graph includes connections between characters until mid 2022. Connections in this graph are undirected, and only one connection exists between two different characters. This graph will remain unupdated."
   updated: 2022
+  keywords:
+    - Dungeons & Dragons
+    - undirected
+    - simple
+    - finished
 - title: Financial workshop graph
   link: https://javiersanzcruza.github.io/network/finance/workshop
-  description: "Graph representing connections between organizers of machine learning workshops in the financial domain. Main representation displays their physical location on Earth, and colors indicate organized workshop(s). Further representations are available (see below)."
+  description: "Graph representing the financial machine learning community. Nodes in this graph represent researchers and practitioners in the area who have organized workshops in this space, while two nodes are connected (with an undirected edge) if they have organized the same workshop. The main representation shows a map of the Earth (in black) over which we show the different workshop organizers. Every workshop series is assigned a different color, and node color represents average color of the workshops organized by each person. Alternative representations show the graph in a clustered format."
   updated: 20th August 2024
   altlinks:
     - link: https://javiersanzcruza.github.io/network/finance/workshop
@@ -17,3 +27,9 @@
       description: Network representation. Node colors represent country of affiliation of the organizers.
     - link: https://javiersanzcruza.github.io/network/finance/graph_by_workshop
       description: Network representation. Node colors represent workshops.
+  keywords:
+    - finance
+    - machine learning
+    - workshops
+    - undirected
+    - multigraph

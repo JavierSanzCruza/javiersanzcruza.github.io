@@ -15,7 +15,7 @@ title: Networks
 			{% if net.link %}
 				<a href="{{ net.link }}">
 			{% endif %} 
-				<b>{{ net.title }}.</b>
+				<b>{{ net.title }}</b>
 			{% if net.link %}
 				</a>
 			{% endif %}
