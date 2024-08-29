@@ -21,14 +21,14 @@ title: Home
 		</div>
 		<div>
 			<div style="font-size:28px">About me</div>
-			<hr class="hrmain">
+			<hr class="mainhr">
 			<div style="text-align: justify">
 				<p>I am a post-doctoral researcher at the <a href="https://www.gla.ac.uk/schools/computing/research/researchsections/ida-section/informationretrieval/">Information Retrieval Group</a> at the <a href="https://www.gla.ac.uk">University of Glasgow</a>, working on the use of natural language processing and machine learning techniques to extract useful signals and information from biomedical publications with <a href="https://jakelever.github.io/">Dr. Jake Lever</a>. Previously, along <a href="https://www.dcs.gla.ac.uk/~richardm/Home/">Dr. Richard McCreadie</a>, <a href="https://www.dcs.gla.ac.uk/~craigm/">Prof. Craig Macdonald</a> and <a href="https://www.gla.ac.uk/schools/computing/staff/iadhounis/">Prof. Iadh Ounis</a>, I explored the development and evaluation of recommender systems for financial investments, participating in and leading research and innovation projects in this space.</p>
 				<p>I obtained a PhD in Computer Science at the Information Retrieval Group at Universidad Autónoma de Madrid, under the supervision of <a href="https://castells.github.io">Prof. Pablo Castells</a>. My thesis, titled <a href="https://javiersanzcruza.github.io/thesis">Contact recommendation in social networks: algorithmic models, diversity and network evolution"</a> explored the development of people-to-people recommendation methods and the effects of recommending links on the evolution of online social networks.</p>
 				<p>My research interests include recommender systems, information retrieval, natural language processing and graphs (social networks, knowledge graphs, citation graphs).</p>
 			</div>
 			<div style="font-size:20px">Research interests</div>
-			<hr class="hrmain">
+			<hr class="mainhr">
 			<div>
 				<ul>
 					<li style="list-style-type: circle;">Recommender systems</li>
