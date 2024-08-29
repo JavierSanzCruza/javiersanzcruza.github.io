@@ -46,7 +46,7 @@ title: Home
 </div>
 
 <div class="publications-div news-div">
-	<div style="align: left; font-size:28px">Latest news</div>
+	<div style="align: left; font-size:28px; margin-top: 32px">Latest news</div>
 	<hr class="solid">
 	<ul>
 		<li style="text-align: justify; list-style-type: circle"><b>21st June 2024</b> Shared task paper with <a href="https://www.gla.ac.uk/pgrs/lubingzhiguo/">Lubingzhi Guo</a> and <a href="http://dcs.gla.ac.uk/~richardm/Home/">Richard McCreadie</a> accepted at the Joint Workshop of the 8th Financial Technology and Natural Language Processing (FinNLP) and the 1st Agent AI for Scenario Planning (AgentScen): University of Glasgow at the FinLLM Challenge Task: Adapting Llama for Financial News Abstractive Summarization.</li>
