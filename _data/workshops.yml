@@ -7,6 +7,9 @@
   conference: 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)
   venue: Jeju, Republic of Korea
   date: August 2024
+  pages: 127-132
+  link: https://aclanthology.org/2024.finnlp-2.12
+  slides: https://javiersanzcruza.github.io/assets/slides/finnlp-2024.pdf
   keywords:
     - finance
     - summarization
@@ -22,6 +25,8 @@
   workshop: IJCAI 2024 Workshop on Recommender Systems in Finance (Fin-RecSys 2024)
   conference: 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)
   venue: Jeju, Republic of Korea
+  paper: https://javiersanzcruza.github.io/assets/papers/finrecsys-2024-stocks.pdf
+  slides: https://javiersanzcruza.github.io/assets/slides/finrecsys-2024-stocks.pdf
   date: August 2024
   keywords:
     - recommender systems
@@ -36,6 +41,8 @@
   conference: 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)
   venue: Jeju, Republic of Korea
   date: August 2024
+  link: https://javiersanzcruza.github.io/assets/papers/finrecsys-2024-comparing.pdf
+  slides: https://javiersanzcruza.github.io/assets/slides/finrecsys-2024-comparing.pdf
   keywords:
     - knowledge graphs
     - profitability prediction
@@ -59,8 +66,9 @@
     - time series
     - dataset
   abstract: "Financial asset recommendation (FAR) is a sub-domain of recommender systems which identifies useful financial securities for investors, with the expectation that they will invest capital on the recommended assets. FAR solutions analyse and learn from multiple data sources, including time series pricing data, customer profile information and expectations, as well as past investments. However, most models have been developed over proprietary datasets, making a comparison over a common benchmark impossible. In this paper, we aim to solve this problem by introducing FAR-Trans, the first public dataset for FAR, containing pricing information and retail investor transactions acquired from a large European financial institution. We also provide a bench-marking comparison between eleven FAR algorithms over the data for use as future baselines"
-  link: https://javiersanzcruza.github.io/assets/papers/finrecsys-fartrans.pdf
+  link: https://javiersanzcruza.github.io/assets/papers/finrecsys-2024-fartrans.pdf
   doi: https://doi.org/10.48550/arXiv.2407.08692
+  slides: https://javiersanzcruza.github.io/assets/slides/finrecsys-2024-fartrans.pdf
 - title: On Transaction-Based Metrics as a Proxy for Profitability of Financial Asset Recommendations
   authors: 
     - Javier Sanz-Cruzado

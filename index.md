@@ -14,7 +14,7 @@ title: Home
 			<p id="intro-photo-text-title">Javier Sanz-Cruzado</p>
 			<ul class="descr">
 				<li style="list-style-type: none;">Research Associate</li>
-				<li style="list-style-type: none;">Terrier Team</li>
+				<li style="list-style-type: none;">Information Retrieval Group</li>
 				<li style="list-style-type: none;">University of Glasgow</li>
 			</ul>
 		</div>
@@ -23,11 +23,23 @@ title: Home
 			<div style="font-size:28px">About me</div>
 			<hr class="solid">
 			<div style="text-align: justify">
-				<p>I am a post-doctoral research associate at the <a href="http://terrierteam.dcs.gla.ac.uk/index.html">Terrier Team</a> at <a href="https://www.gla.ac.uk">University of Glasgow</a>, working on financial asset recommendations with Prof. Iadh Ounis, Prof. Craig Macdonald and Dr. Richard McCreadie. Previously, I obtained a PhD in computer science at the <a href="http://ir.ii.uam.es">Information Retrieval Group</a> at <a href="http://www.uam.es">Universidad Autónoma de Madrid</a>. I developed my thesis, titled <a href="https://javiersanzcruza.github.io/jsanzcruzado-phdthesis.pdf">"Contact recommendation in social networks: algorithmic models, diversity and network evolution"</a>, under the supervision of Prof. Pablo Castells.</p>
-				<p>My research interests are recommender systems, information retrieval, social networks and multi-armed bandits. Currently, the main focus of my work is the definition of effective and explainable recommendation models for asset recommendation in the financial domain.</p>
-				<p> My doctoral research was focused on people-to-people recommendation, where I explored the development of new recommendation algorithms based on information retrieval models, as well as considering new perspectives beyond accuracy in the development and evaluation of contact recommendation methods, such as the effects of recommending new links on the evolution of the structural properties and the flow of information through the network. I also studied the use of multi-armed bandit approaches for interactive recommendation.</p>					
+				<p>I am a post-doctoral researcher at the <a href="https://www.gla.ac.uk/schools/computing/research/researchsections/ida-section/informationretrieval/">Information Retrieval Group</a> at the <a href="https://www.gla.ac.uk">University of Glasgow</a>, working on the use of natural language processing and machine learning techniques to extract useful signals and information from biomedical publications with <a href="https://jakelever.github.io/">Dr. Jake Lever</a>. Previously, along <a href="https://www.dcs.gla.ac.uk/~richardm/Home/">Dr. Richard McCreadie</a>, <a href="https://www.dcs.gla.ac.uk/~craigm/">Prof. Craig Macdonald</a> and <a href="https://www.gla.ac.uk/schools/computing/staff/iadhounis/">Prof. Iadh Ounis</a>, I explored the development and evaluation of recommender systems for financial investments, participating in and leading research and innovation projects in this space.</p>
+				<p>I obtained a PhD in Computer Science at the Information Retrieval Group at Universidad Autónoma de Madrid, under the supervision of <a href="https://castells.github.io">Prof. Pablo Castells</a>. My thesis, titled <a href="https://javiersanzcruza.github.io/thesis">Contact recommendation in social networks: algorithmic models, diversity and network evolution"</a> explored the development of people-to-people recommendation methods and the effects of recommending links on the evolution of online social networks.</p>
+				<p>My research interests include recommender systems, information retrieval, natural language processing and graphs (social networks, knowledge graphs, citation graphs).</p>					
 			</div>
+			<div style="font-size:20px">Research interests</div>
+			<hr class="solid">
+			<ul>
+				<li style="list-style-type: circle;">Recommender systems</li>
+				<li style="list-style-type: circle;">Information retrieval</li>
+				<li style="list-style-type: circle;">Natural language processing</li>
+				<li style="list-style-type: circle;">Machine learning</li>
+				<li style="list-style-type: circle;">Graphs (Knowledge graphs, social networks ,citation graphs...)</li>
+				<li style="list-style-type: circle;">Financial investments</li>
+				<li style="list-style-type: circle;">Biomedical text classification</li>
+			</ul>
 		</div>
+		<div>
 	</div>
 </div>
 
