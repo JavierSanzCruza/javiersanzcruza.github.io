@@ -44,32 +44,34 @@ title: CV
                   </div>
                   <!-- end timeline-icon -->
                   <!-- begin timeline-body -->
-                  <div class="timeline-header">
-                     <table>
-                        <tr style="border-bottom: 0px">
-                           <td style="max-width: 130px;"><img src="/assets/img/UoG_colour.png" alt="University of Glasgow" style="max-width:200px"></td>
-                           <td>
-                              <span class="username">Research associate</span><br/>
-                              <span class="text-muted">AI4BioMed Lab, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">https://ai4biomed.org/</a>)</span>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-                  <div class="timeline-content">
-                     <p>
-                        Research on natural language processing for extracting information about cancer mutations from biomedical publications.
-                        <table>
-                           <tr>
-                              <td><img src="/assets/img/CiVIC.png" alt="ICURe Explore" style="max-width:100px"></td>
-                              <td></td>
-                              <td><b>Project title:</b> Creation of a knowledgebase of high quality assertions of the clinical actionability of somatic variants in cancer<br/>
-                                  <b>Role:</b> Post-doctoral researcher<br/>
-                                  <b>Funder:</b> National Institutes of Health, USA<br/>
-                                  <b>Period:</b> Since August 2024<br/>
-                                  Natural language processing for predicting the quality of biomedical publications.</td>
-                           </tr>
-                        </table>
-                    </p>
+                     <div class="timeline-body">
+                        <div class="timeline-header">
+                           <table>
+                              <tr style="border-bottom: 0px">
+                                 <td style="max-width: 130px;"><img src="/assets/img/UoG_colour.png" alt="University of Glasgow" style="max-width:200px"></td>
+                                 <td>
+                                    <span class="username">Research associate</span><br/>
+                                    <span class="text-muted">AI4BioMed Lab, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">https://ai4biomed.org/</a>)</span>
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     <div class="timeline-content">
+                        <p>
+                           Research on natural language processing for extracting information about cancer mutations from biomedical publications.
+                           <table>
+                              <tr>
+                                 <td><img src="/assets/img/CiVIC.png" alt="ICURe Explore" style="max-width:100px"></td>
+                                 <td></td>
+                                 <td><b>Project title:</b> Creation of a knowledgebase of high quality assertions of the clinical actionability of somatic variants in cancer<br/>
+                                     <b>Role:</b> Post-doctoral researcher<br/>
+                                     <b>Funder:</b> National Institutes of Health, USA<br/>
+                                     <b>Period:</b> Since August 2024<br/>
+                                     Natural language processing for the quality of biomedical publications.</td>
+                              </tr>
+                           </table>
+                       </p>
+                     </div>
                   </div>
                 <!--<div class = "collapsible-header" style="text-align:left;"><i class="material-icons">expand_more</i>
                     <p>Research associate</p>
@@ -98,6 +100,7 @@ title: CV
                  </div>
                  <!-- end timeline-icon -->
                  <!-- begin timeline-body -->
+                  <div class="timeline-body">
                      <div class="timeline-header">
                         <table>
                            <tr style="border-bottom: 0px">
