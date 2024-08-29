@@ -59,7 +59,7 @@ title: Contact
 	</div>
 </a>
 
-<a href="https://scholar.google.com/citations?user=w_kgThgAAAAJ&hl=es">
+<a href="https://scholar.google.com/citations?user=w_kgThgAAAAJ&hl=en">
 	<div class="mdc-card my-card">
 		<div class="contact-card-left">
 	 		<img src="/assets/img/scholar.png" />

@@ -61,7 +61,7 @@ title: CV
                            Research on natural language processing for extracting information about cancer mutations from biomedical publications.
                            <table>
                               <tr>
-                                 <td><img src="/assets/img/CiVIC.png" alt="ICURe Explore" style="max-width:100px"></td>
+                                 <td><img src="/assets/img/CiVIC.png" alt="CiVIC" style="max-width:100px"></td>
                                  <td></td>
                                  <td><b>Project title:</b> Creation of a knowledgebase of high quality assertions of the clinical actionability of somatic variants in cancer<br/>
                                      <b>Role:</b> Post-doctoral researcher<br/>

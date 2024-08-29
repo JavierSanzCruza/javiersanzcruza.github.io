@@ -16,6 +16,10 @@ ul, ol
 	font-size: 16px;
 }
 
+.mainhr {
+	margin: 16px 16px 16px 365px;
+}
+
 .theme-header {
 	position: relative;
 	background-color: rgb(49, 170, 28);
@@ -643,6 +647,10 @@ a .my-card
 	.intro-photo-text
 	{
 		width: 100%;
+	}
+
+	.mainhr {
+		margin: 16px 16px 16px 365px;
 	}
 
 }
