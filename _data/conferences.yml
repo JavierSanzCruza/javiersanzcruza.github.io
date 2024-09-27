@@ -1,11 +1,28 @@
+- title: "Stock Recommendations for Individual Investors: A Temporal Graph Network Approach with Mean-variance Efficient Sampling"
+  authors:
+    - Youngbin Lee
+    - Yeyin Kim
+    - Javier Sanz-Cruzado
+    - Richard McCreadie
+    - Yongjae Lee
+  conference: 5th ACM Conference on AI in Finance (ICAIF 2024)
+  venue: New York, USA
+  date: November 2024
+  keywords:
+    - recommender systems
+    - financial recommendation
+    - temporal graph network
+  abstract: >+
+    Recommender systems can be helpful for individuals to make well-informed decisions in complex financial markets. While many studies have focused on predicting stock prices, even advanced models fall short of accurately forecasting them. Additionally, previous studies indicate that individual investors often disregard established investment theories, favoring their personal preferences instead. This presents a challenge for stock recommendation systems, which must not only provide strong investment performance but also respect these individual preferences. To create effective stock recommender systems, three critical elements must be incorporated: 1) individual preferences, 2) portfolio diversification, and 3) the temporal dynamics of the first two. In response, we propose a new model, Portfolio Temporal Graph Network Recommender (PfoTGNRec), which can handle time-varying collaborative signals and incorporates diversification-enhancing sampling. On real-world individual trading data, our approach demonstrates superior performance compared to state-of-the-art baselines, including cutting-edge dynamic embedding models and existing stock recommendation models. Indeed, we show that PfoTGNRec is an effective solution that can balance customer preferences with the need to suggest portfolios with high Return-on-Investment.
 - title: "FAR-AI: A Modular Platform for Investment Recommendation in the Financial Domain"
   authors:
     - Javier Sanz-Cruzado
     - Edward Richards
     - Richard McCreadie
-  conference: 46th European Conference on Information Retrieval (ECIR 2024). Demo track.
+  conference: 46th European Conference on Information Retrieval (ECIR 2024), Demo track
   venue: Glasgow, Scotland
   date: March 2024
+  pages: 267-271 (Volume 5)
   abstract: >+
     Financial asset recommendation (FAR) is an emerging sub-domain of the wider recommendation field that is concerned with recommending suitable financial assets to customers, with the expectation that those customers will invest capital into a subset of those assets. FAR is a particularly interesting sub-domain to explore, as unlike traditional movie or product recommendation, FAR solutions need to analyse and learn from a combination of time-series pricing data, company fundamentals, social signals and world events, relating the patterns observed to multi-faceted customer representations comprising profiling information, expectations and past investments. In this demo we will present a modular FAR platform; referred to as FAR-AI, with the goal of raising awareness and building a community around this emerging domain, as well as illustrate the challenges, design considerations and new research directions that FAR offers. The demo will comprise two components: 1) we will present the architecture of FAR-AI to attendees, to enable them to understand the how’s and the why’s of developing a FAR system; and 2) a live demonstration of FAR-AI as a customer-facing product, highlighting the differences in functionality between FAR solutions and traditional recommendation scenarios. The demo is supplemented by online-tutorial materials, to enable attendees new to this space to get practical experience with training FAR models. 
   keywords: 
@@ -13,8 +30,10 @@
     - finance
     - machine learning
   link: https://javiersanzcruza.github.io/assets/papers/ecir2024.pdf
+  doi: https://doi.org/10.1007/978-3-031-56069-9_30
   video: https://www.youtube.com/watch?v=omEyrkheaqg
   poster: https://javiersanzcruza.github.io/assets/posters/ecir2024-poster.pdf
+
 - title: "RELISON: A Framework for Link Recommendation in Social Networks"
   authors:
     - Javier Sanz-Cruzado
