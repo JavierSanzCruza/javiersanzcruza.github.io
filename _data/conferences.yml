@@ -8,6 +8,9 @@
   conference: 5th ACM Conference on AI in Finance (ICAIF 2024)
   venue: New York, USA
   date: November 2024
+  pages: 795-803
+  link: https://javiersanzcruza.github.io/assets/papers/icaif2024.pdf
+  doi: https://doi.org/10.1145/3677052.3698662
   keywords:
     - recommender systems
     - financial recommendation
