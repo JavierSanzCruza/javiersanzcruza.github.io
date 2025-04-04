@@ -6,6 +6,8 @@
   conference: 47th European Conference on Information Retrieval (ECIR 2025), IR4Good Track
   venue: Lucca, Italy
   date: April 2025
+  link: https://javiersanzcruza.github.io/assets/papers/ecir2025_ir4good.pdf
+  doi: https://doi.org/10.1007/978-3-031-88717-8_14
   abstract: Neighborhood-based approaches remain widely used techniques in collaborative filtering recommender systems due to their versatility, simplicity, and efficiency. Traditionally, these algorithms consider similarity functions to measure how close user or item interactions are. However, their focus on capturing similar tastes often overlooks divergent preferences that could enhance recommendations. In this paper, we explore alternative methods to incorporate such information to improve beyond-accuracy performance in this type of recommenders. We define three mechanisms based on various modeling assumptions to integrate differing preferences into traditional nearest neighbors algorithms. Our comparison on four well-known and different datasets shows that our proposed approach can enhance the novelty and diversity of the recommendations while maintaining ranking accuracy.
 - title: "FinPersona: A LLM-Driven Conversational Conversationa Agent for Personalized Financial Advising"
   authors:
@@ -23,6 +25,8 @@
     The application of conversational agents in finances is a particularly challenging subfield to explore, as financial scenarios require personalization and emotional support, especially during periods of market turmoil.
     In this paper, we present FinPersona, a Large Language Model (LLM)-driven conversational agent for personalized financial advising. FinPersona enables a non-expert user to explore investment options through conversation and dialogue driven by knowledge of the individual user and their circumstances. Through FinPersona, we aim to illustrate the salient features of a working prototype, we well as raise awareness of the many challenges unique to the financial domain.
   video: https://www.youtube.com/watch?v=fZ13ogQffuI
+  doi: https://doi.org/10.1007/978-3-031-88720-8_3
+  link: https://javiersanzcruza.github.io/assets/papers/ecir2025_demo.pdf
 - title: "Stock Recommendations for Individual Investors: A Temporal Graph Network Approach with Mean-variance Efficient Sampling"
   authors:
     - Youngbin Lee
