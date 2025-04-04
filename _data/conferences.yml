@@ -9,14 +9,14 @@
   link: https://javiersanzcruza.github.io/assets/papers/ecir2025_ir4good.pdf
   doi: https://doi.org/10.1007/978-3-031-88717-8_14
   code: https://github.com/pablosanchezp/kNNDissimilarities
-  keywwords:
+  keywords:
     - recommender systems
     - novelty
     - diversity
     - k nearest neighbors
     - dissimilarity
   abstract: Neighborhood-based approaches remain widely used techniques in collaborative filtering recommender systems due to their versatility, simplicity, and efficiency. Traditionally, these algorithms consider similarity functions to measure how close user or item interactions are. However, their focus on capturing similar tastes often overlooks divergent preferences that could enhance recommendations. In this paper, we explore alternative methods to incorporate such information to improve beyond-accuracy performance in this type of recommenders. We define three mechanisms based on various modeling assumptions to integrate differing preferences into traditional nearest neighbors algorithms. Our comparison on four well-known and different datasets shows that our proposed approach can enhance the novelty and diversity of the recommendations while maintaining ranking accuracy.
-- title: "FinPersona: A LLM-Driven Conversational Conversationa Agent for Personalized Financial Advising"
+- title: "FinPersona: A LLM-Driven Conversational Agent for Personalized Financial Advising"
   authors:
     - Takehiro Takayanagi
     - Masahiro Suzuki
