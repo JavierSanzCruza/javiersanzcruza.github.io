@@ -556,6 +556,8 @@ title: CV
                         <li><i>Program committee member</i> for the 46th European Conference on Information Retrieval (ECIR 2024)</li>
                         <li><i>Short Paper Program committee member</i> for the 47th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2024).</li>
                         <li><i>Program committee member</i> for the 5th ACM Conference on AI in Finance (ICAIF 2024).</li>
+                        <li><i>Program committee member</i> for the 48th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2025).</li>
+                        <li><i>Program committee member</i> for the 19th ACM Conference on Recommender Systems (RecSys 2025)</li>
                     </ul></li>
             </ul>
         </div>
