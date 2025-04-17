@@ -1,0 +1,45 @@
+- title: "FinPersona: A LLM-Driven Conversational Agent for Personalized Financial Advising"
+  authors:
+    - Takehiro Takayanagi
+    - Masahiro Suzuki
+    - Kiyoshi Izumi
+    - Javier Sanz-Cruzado
+    - Richard McCreadie
+    - Iadh Ounis
+  conference: 47th European Conference on Information Retrieval (ECIR 2025)
+  venue: Lucca, Italy
+  poster: https://javiersanzcruza.github.io/assets/posters/ecir2025-poster.pdf
+  date: April 2025
+  abstract: >+
+    Conversational financial assistance is gaining increasing attention as a subdomain within the broader field of conversational AI, attracting interest from both the AI and finance communities.
+    The application of conversational agents in finances is a particularly challenging subfield to explore, as financial scenarios require personalization and emotional support, especially during periods of market turmoil.
+    In this paper, we present FinPersona, a Large Language Model (LLM)-driven conversational agent for personalized financial advising. FinPersona enables a non-expert user to explore investment options through conversation and dialogue driven by knowledge of the individual user and their circumstances. Through FinPersona, we aim to illustrate the salient features of a working prototype, we well as raise awareness of the many challenges unique to the financial domain.
+  video: https://www.youtube.com/watch?v=fZ13ogQffuI
+  doi: https://doi.org/10.1007/978-3-031-88720-8_3
+  link: https://javiersanzcruza.github.io/assets/papers/ecir2025_demo.pdf
+  pages: 13-18 (Volume 5)
+  keywords:
+    - finance
+    - large language models
+    - conversational agents
+    - financial advisory
+    - personalization
+- title: "FAR-AI: A Modular Platform for Investment Recommendation in the Financial Domain"
+  authors:
+    - Javier Sanz-Cruzado
+    - Edward Richards
+    - Richard McCreadie
+  conference: 46th European Conference on Information Retrieval (ECIR 2024), Demo track
+  venue: Glasgow, Scotland
+  date: March 2024
+  pages: 267-271 (Volume 5)
+  abstract: >+
+    Financial asset recommendation (FAR) is an emerging sub-domain of the wider recommendation field that is concerned with recommending suitable financial assets to customers, with the expectation that those customers will invest capital into a subset of those assets. FAR is a particularly interesting sub-domain to explore, as unlike traditional movie or product recommendation, FAR solutions need to analyse and learn from a combination of time-series pricing data, company fundamentals, social signals and world events, relating the patterns observed to multi-faceted customer representations comprising profiling information, expectations and past investments. In this demo we will present a modular FAR platform; referred to as FAR-AI, with the goal of raising awareness and building a community around this emerging domain, as well as illustrate the challenges, design considerations and new research directions that FAR offers. The demo will comprise two components: 1) we will present the architecture of FAR-AI to attendees, to enable them to understand the how’s and the why’s of developing a FAR system; and 2) a live demonstration of FAR-AI as a customer-facing product, highlighting the differences in functionality between FAR solutions and traditional recommendation scenarios. The demo is supplemented by online-tutorial materials, to enable attendees new to this space to get practical experience with training FAR models. 
+  keywords: 
+    - recommender systems 
+    - finance
+    - machine learning
+  link: https://javiersanzcruza.github.io/assets/papers/ecir2024.pdf
+  doi: https://doi.org/10.1007/978-3-031-56069-9_30
+  video: https://www.youtube.com/watch?v=omEyrkheaqg
+  poster: https://javiersanzcruza.github.io/assets/posters/ecir2024-poster.pdf
