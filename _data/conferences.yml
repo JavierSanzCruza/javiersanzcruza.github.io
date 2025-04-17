@@ -1,13 +1,3 @@
-- title: "Information Retrieval in Finance: Industry and Academic Perspectives on Innovation"
-  authors:
-    - Chung-Chi Chen
-    - Yongjae Lee
-    - Chanyeol Choi
-    - Richard McCreadie
-    - Javier Sanz-Cruzado
-    - Alejandro López-Lira
-  conference: 48th ACM Conference on Research and Development in Information Retrieval (SIGIR 2025). Tutorial Track.
-  abstract: 
 - title: "Are Generative AI Agents Effective Personalized Financial Advisors?"
   authors:
     - Takehiro Takayanagi
@@ -46,6 +36,7 @@
     - k nearest neighbors
     - dissimilarity
   abstract: Neighborhood-based approaches remain widely used techniques in collaborative filtering recommender systems due to their versatility, simplicity, and efficiency. Traditionally, these algorithms consider similarity functions to measure how close user or item interactions are. However, their focus on capturing similar tastes often overlooks divergent preferences that could enhance recommendations. In this paper, we explore alternative methods to incorporate such information to improve beyond-accuracy performance in this type of recommenders. We define three mechanisms based on various modeling assumptions to integrate differing preferences into traditional nearest neighbors algorithms. Our comparison on four well-known and different datasets shows that our proposed approach can enhance the novelty and diversity of the recommendations while maintaining ranking accuracy.
+  slides: https://abellogin.github.io/2025/ir4good-slides.pdf
 - title: "Stock Recommendations for Individual Investors: A Temporal Graph Network Approach with Mean-variance Efficient Sampling"
   authors:
     - Youngbin Lee

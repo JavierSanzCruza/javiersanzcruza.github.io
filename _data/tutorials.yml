@@ -8,3 +8,10 @@
     - Alejandro López-Lira
   conference: 48th ACM Conference on Research and Development in Information Retrieval (SIGIR 2025)
   abstract: "Digital finance is an increasingly important component of everyday life, digital banking has become the norm, over 60% of working age adults in the U.S. hold stock market investments, and the advent of large generative models have disrupted the market, resulting in new financial AI tools, as well as increased automation of tasks. However, finance is a specialist domain, with unique challenges and considerations that makes it a particularly rich space for researchers looking for difficult but impactful problems to explore. Financial applications are heavily dependent on personalization to be effective and require deep user understanding. Financial search and QA systems require a strong grasp on temporal dynamics and need to aggregate evidence from multiple sources. Meanwhile, there is a focus on not just serving information, but facilitating user understanding - as financial information retrieval systems are used to support high-impact decision making. We believe that digital finance will become a much more prevalent use-case in SIGIR and related venues in the next few years, and so we propose this tutorial as a means to introduce and skill-up the IR community in state-of-the-art digital finance research and applications. In particular, this full-day tutorial presents covers the integration of information retrieval, recommender systems, and large language models in financial applications such as investment recommendation, portfolio selection, and research management. Through interdisciplinary insights and real-world case studies, we aim to provide attendees a comprehensive understanding of how modern IR and NLP techniques are transforming financial landscape."
+  venue: Padua, Italy
+  date: July 2025
+  keywords:
+    - finance
+    - large language models
+    - recommender systems
+    - information retrieval
