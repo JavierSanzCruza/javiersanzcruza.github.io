@@ -11,6 +11,8 @@
     - entity linking
     - cross-encoders
     - efficiency
+  link: https://javiersanzcruza.github.io/assets/papers/bionlp2025.pdf
+  code: https://github.com/Glasgow-AI4BioMed/entitytools (Available soon)
   abstract: "Biomedical entity linking models disambiguate mentions in text by matching them with unique biomedical concepts. This problem is commonly addressed using a two-stage pipeline comprising an inexpensive candidate generator, which filters a subset of suitable entities for a mention, and a costly but precise reranker that provides the final matching between the mention and the concept. With the goal of applying two-stage entity linking at scale, we explore the construction of effective cross-encoder reranker models, capable of scoring multiple mention-entity pairs simultaneously. Through experiments on four entity linking datasets, we show that our cross-encoder models provide between 2.7 to 36.97 times faster training speeds and 3.8 to 26.47 times faster inference speeds than a base cross-encoder model capable of scoring only one entity, while achieving similar accuracy (differences between -3.42% to 2.76% Acc@1)."
 - title: "University of Glasgow at the FinLLM Challenge Task: Adapting Llama for Financial News Abstractive Summarization"
   authors:
@@ -29,7 +31,6 @@
     - summarization
     - large language models
   abstract: "In this paper, we explore different approaches for aligning Large Language Models (LLMs) with the objectives of the financial abstractive summarization shared task. This shared task focuses on using LLM to abstract news into concise summaries. We investigate three common strategies: few-shot learning, fine-tuning, and reinforcement learning, to adapt LLMs for this purpose, with the fine-tuned model ranked first on the leaderboard."
-
 - title: "Stock Recommendations for Individual Investors: A Temporal Graph Network Approach with Mean-variance Efficient Learning"
   authors:
     - Youngbin Lee
