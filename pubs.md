@@ -53,12 +53,6 @@ title: Publications
     				{{ keyword }},
     			{% endif %}
     		{% endfor %}
-    		{% if pub.slides }
-    			<br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-    		{% endif %}
-    		{% if pub.poster }
-    			<br><b>Poster:</b> <a href="{{ pub.poster }}">{{ pub.poster }}</a>
-    		{% endif %}
     		{% if pub.code %}
     		    <br><b>Code:</b> <a href="{{ pub.code }}">{{ pub.code }}</a>
     		{% endif %}
