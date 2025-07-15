@@ -62,9 +62,6 @@ title: Publications
     		{% if pub.code %}
     		    <br><b>Code:</b> <a href="{{ pub.code }}">{{ pub.code }}</a>
     		{% endif %}
-    		{% if pub.slides }
-    			<br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-    		{% endif %}
     	</span>
     	</div>
     </li>
