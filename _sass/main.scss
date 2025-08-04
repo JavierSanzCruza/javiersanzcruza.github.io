@@ -127,14 +127,28 @@ hr {
 
 .award-first {
 	background : gold;
-	padding : 5px;
-	border-radius: 10px;
+	padding : 3px;
+	border-radius : 10px;
+	border : 1px solid gold;
+	font-size : small;
+	margin-right: 5px;
 }
 
 .award-second {
 	background : silver;
-	padding : 5px;
-	border-radius: 10px;
+	padding : 3px;
+	border-radius : 10px;
+	border : 1px solid silver;
+	font-size : small;
+	margin-right : 5px;
+}
+
+.pub-link {
+	padding : 3px;
+	font-size : small;
+	border-radius : 10px;
+	border : 1px solid blue;
+	margin-right : 5px;
 }
 
 .theme-nav {

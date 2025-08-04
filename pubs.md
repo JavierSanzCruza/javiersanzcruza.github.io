@@ -41,31 +41,42 @@ title: Publications
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		<br/>
     		{% if pub.award %}
-    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    			<span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
+    		{% if pub.slides %}
+    		    <a class="pub-link" href="{{ pub.slides }}">Slides</a>
+		    {% endif %}
+		    {% if pub.video %}
+		        <a class="pub-link" href="{{ pub.video }}">Video</a>
+        	{% endif %}
+        	{% if pub.poster %}
+        	    <a class="pub-link" href="{{ pub.poster }}">Poster</a>
+    	    {% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
+    		{% if pub.website %}
+    		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
 			</p>
 		</div>
         <div class = "collapsible-body abstract">
-        	<span><b>Abstract: </b> {{ pub.abstract }}
-        	<br/><b>Keywords:</b>
-        	{% for keyword in pub.keywords %}
-        		{% if forloop.last %}
-        			{{ keyword }}.
-    			{% else %}
-    				{{ keyword }},
-    			{% endif %}
-    		{% endfor %}
-    		{% if pub.slides %}
-    		    <br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-		    {% endif %}
-		    {% if pub.video %}
-		        <br><b>Video:</b> <a href="{{ pub.video }}">{{ pub.video }}</a>
-        	{% endif %}
-        	{% if pub.poster %}
-        	    <br><b>Poster:</b> <a href="{{ pub.poster }}">{{ pub.poster }}</a>
-    	    {% endif %}
-    	</span>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        	</div>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Keywords</b></span><span>
+	        	{% for keyword in pub.keywords %}
+	        		{% if forloop.last %}
+	        			{{ keyword }}.
+	    			{% else %}
+	    				{{ keyword }},
+	    			{% endif %}
+	    		{% endfor %}
+    			</span>
+    		</div>
     	</div>
     </li>
     {% endfor %}
@@ -107,33 +118,42 @@ title: Publications
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		<br/>
     		{% if pub.award %}
-    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    			<span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
+    		{% if pub.slides %}
+    		    <a class="pub-link" href="{{ pub.slides }}">Slides</a>
+		    {% endif %}
+		    {% if pub.video %}
+		        <a class="pub-link" href="{{ pub.video }}">Video</a>
+        	{% endif %}
+        	{% if pub.poster %}
+        	    <a class="pub-link" href="{{ pub.poster }}">Poster</a>
+    	    {% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
+    		{% if pub.website %}
+    		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
 			</p>
 		</div>
-        <div class = "collapsible-body abstract">
-        	<span><b>Abstract: </b> {{ pub.abstract }}
-        	<br/><b>Keywords:</b>
-        	{% for keyword in pub.keywords %}
-        		{% if forloop.last %}
-        			{{ keyword }}.
-    			{% else %}
-    				{{ keyword }},
-    			{% endif %}
-    		{% endfor %}
-    		{% if pub.slides %}
-    		    <br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-		    {% endif %}
-		    {% if pub.video %}
-		        <br><b>Video:</b> <a href="{{ pub.video }}">{{ pub.video }}</a>
-        	{% endif %}
-        	{% if pub.poster %}
-        	    <br><b>Poster:</b> <a href="{{ pub.poster }}">{{ pub.poster }}</a>
-    	    {% endif %}
-    		{% if pub.code %}
-    		    <br><b>Code:</b> <a href="{{ pub.code }}">{{ pub.code }}</a>
-    		{% endif %}</span>
+		<div class = "collapsible-body abstract">
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        	</div>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Keywords</b></span><span>
+	        	{% for keyword in pub.keywords %}
+	        		{% if forloop.last %}
+	        			{{ keyword }}.
+	    			{% else %}
+	    				{{ keyword }},
+	    			{% endif %}
+	    		{% endfor %}
+    			</span>
+    		</div>
     	</div>
     </li>
     {% endfor %}
@@ -175,36 +195,42 @@ title: Publications
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		<br/>
     		{% if pub.award %}
-    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    			<span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
+    		{% if pub.slides %}
+    		    <a class="pub-link" href="{{ pub.slides }}">Slides</a>
+		    {% endif %}
+		    {% if pub.video %}
+		        <a class="pub-link" href="{{ pub.video }}">Video</a>
+        	{% endif %}
+        	{% if pub.poster %}
+        	    <a class="pub-link" href="{{ pub.poster }}">Poster</a>
+    	    {% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
+    		{% if pub.website %}
+    		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
 			</p>
 		</div>
-        <div class = "collapsible-body abstract">
-        	<span><b>Abstract: </b> {{ pub.abstract }}
-        	<br/><b>Keywords:</b>
-        	{% for keyword in pub.keywords %}
-        		{% if forloop.last %}
-        			{{ keyword }}.
-    			{% else %}
-    				{{ keyword }},
-    			{% endif %}
-    		{% endfor %}
-    		{% if pub.slides %}
-    		    <br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-		    {% endif %}
-		    {% if pub.video %}
-		        <br><b>Video:</b> <a href="{{ pub.video }}">{{ pub.video }}</a>
-        	{% endif %}
-        	{% if pub.poster %}
-        	    <br><b>Poster:</b> <a href="{{ pub.poster }}">{{ pub.poster }}</a>
-    	    {% endif %}
-    		{% if pub.code %}
-    		    <br><b>Code:</b> <a href="{{ pub.code }}">{{ pub.code }}</a>
-    		{% endif %}
-    		{% if pub.website %}
-    		    <br><b>Website:</b> <a href="{{ pub.website }}">{{ pub.website }}</a>
-    		{% endif %}</span>
+		<div class = "collapsible-body abstract">
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        	</div>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Keywords</b></span><span>
+	        	{% for keyword in pub.keywords %}
+	        		{% if forloop.last %}
+	        			{{ keyword }}.
+	    			{% else %}
+	    				{{ keyword }},
+	    			{% endif %}
+	    		{% endfor %}
+    			</span>
+    		</div>
     	</div>
     </li>
     {% endfor %}
@@ -247,36 +273,42 @@ title: Publications
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		<br/>
     		{% if pub.award %}
-    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    			<span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
+    		{% if pub.slides %}
+    		    <a class="pub-link" href="{{ pub.slides }}">Slides</a>
+		    {% endif %}
+		    {% if pub.video %}
+		        <a class="pub-link" href="{{ pub.video }}">Video</a>
+        	{% endif %}
+        	{% if pub.poster %}
+        	    <a class="pub-link" href="{{ pub.poster }}">Poster</a>
+    	    {% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
+    		{% if pub.website %}
+    		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
 			</p>
 		</div>
-        <div class = "collapsible-body abstract">
-        	<span><b>Abstract: </b> {{ pub.abstract }}
-        	<br/><b>Keywords:</b>
-        	{% for keyword in pub.keywords %}
-        		{% if forloop.last %}
-        			{{ keyword }}.
-    			{% else %}
-    				{{ keyword }},
-    			{% endif %}
-    		{% endfor %}
-    		{% if pub.slides %}
-    		    <br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-		    {% endif %}
-		    {% if pub.video %}
-		        <br><b>Video:</b> <a href="{{ pub.video }}">{{ pub.video }}</a>
-        	{% endif %}
-        	{% if pub.poster %}
-        	    <br><b>Poster:</b> <a href="{{ pub.poster }}">{{ pub.poster }}</a>
-    	    {% endif %}
-    		{% if pub.code %}
-    		    <br><b>Code:</b> <a href="{{ pub.code }}">{{ pub.code }}</a>
-    		{% endif %}
-    		{% if pub.website %}
-    		    <br><b>Website:</b> <a href="{{ pub.website }}">{{ pub.website }}</a>
-    		{% endif %}</span>
+		<div class = "collapsible-body abstract">
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        	</div>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Keywords</b></span><span>
+	        	{% for keyword in pub.keywords %}
+	        		{% if forloop.last %}
+	        			{{ keyword }}.
+	    			{% else %}
+	    				{{ keyword }},
+	    			{% endif %}
+	    		{% endfor %}
+    			</span>
+    		</div>
     	</div>
     </li>
     {% endfor %}
@@ -323,33 +355,42 @@ title: Publications
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		<br/>
     		{% if pub.award %}
-    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    			<span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
+    		{% if pub.slides %}
+    		    <a class="pub-link" href="{{ pub.slides }}">Slides</a>
+		    {% endif %}
+		    {% if pub.video %}
+		        <a class="pub-link" href="{{ pub.video }}">Video</a>
+        	{% endif %}
+        	{% if pub.poster %}
+        	    <a class="pub-link" href="{{ pub.poster }}">Poster</a>
+    	    {% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
+    		{% if pub.website %}
+    		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
 			</p>
 		</div>
-        <div class = "collapsible-body abstract">
-        	<span><b>Abstract: </b> {{ pub.abstract }}
-        	<br/><b>Keywords:</b>
-        	{% for keyword in pub.keywords %}
-        		{% if forloop.last %}
-        			{{ keyword }}.
-    			{% else %}
-    				{{ keyword }},
-    			{% endif %}
-    		{% endfor %}
-    		{% if pub.slides %}
-    		    <br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-		    {% endif %}
-		    {% if pub.video %}
-		        <br><b>Video:</b> <a href="{{ pub.video }}">{{ pub.video }}</a>
-        	{% endif %}
-        	{% if pub.poster %}
-        	    <br><b>Poster:</b> <a href="{{ pub.poster }}">{{ pub.poster }}</a>
-    	    {% endif %}
-    	    {% if pub.code %}
-    		    <br><b>Code:</b> <a href="{{ pub.code }}">{{ pub.code }}</a>
-    		{% endif %}</span>
+		<div class = "collapsible-body abstract">
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        	</div>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Keywords</b></span><span>
+	        	{% for keyword in pub.keywords %}
+	        		{% if forloop.last %}
+	        			{{ keyword }}.
+	    			{% else %}
+	    				{{ keyword }},
+	    			{% endif %}
+	    		{% endfor %}
+    			</span>
+    		</div>
     	</div>
     </li>
     {% endfor %}
@@ -398,34 +439,42 @@ title: Publications
 			{% if pub.doi %}
         		DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		<br/>
     		{% if pub.award %}
-    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    			<span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
+    		{% if pub.slides %}
+    		    <a class="pub-link" href="{{ pub.slides }}">Slides</a>
+		    {% endif %}
+		    {% if pub.video %}
+		        <a class="pub-link" href="{{ pub.video }}">Video</a>
+        	{% endif %}
+        	{% if pub.poster %}
+        	    <a class="pub-link" href="{{ pub.poster }}">Poster</a>
+    	    {% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
+    		{% if pub.website %}
+    		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
 			</p>
 		</div>
-        <div class = "collapsible-body abstract">
-        	<span><b>Abstract: </b> {{ pub.abstract }}
-        	<br/><b>Keywords:</b>
-        	{% for keyword in pub.keywords %}
-        		{% if forloop.last %}
-        			{{ keyword }}.
-    			{% else %}
-    				{{ keyword }},
-    			{% endif %}
-    		{% endfor %}
-    		{% if pub.slides %}
-    		    <br><b>Slides:</b> <a href="{{ pub.slides }}">{{ pub.slides }}</a>
-		    {% endif %}
-		    {% if pub.video %}
-		        <br><b>Video:</b> <a href="{{ pub.video }}">{{ pub.video }}</a>
-        	{% endif %}
-        	{% if pub.poster %}
-        	    <br><b>Poster:</b> <a href="{{ pub.poster }}">{{ pub.poster }}</a>
-    	    {% endif %}
-    	    {% if pub.code %}
-    		    <br><b>Code:</b> <a href="{{ pub.code }}">{{ pub.code }}</a>
-    		{% endif %}
-    		</span>
+		<div class = "collapsible-body abstract">
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        	</div>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Keywords</b></span><span>
+	        	{% for keyword in pub.keywords %}
+	        		{% if forloop.last %}
+	        			{{ keyword }}.
+	    			{% else %}
+	    				{{ keyword }},
+	    			{% endif %}
+	    		{% endfor %}
+    			</span>
+    		</div>
     	</div>
     </li>
     {% endfor %}
