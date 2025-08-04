@@ -41,6 +41,9 @@ title: Publications
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		{% if pub.award %}
+    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
 			</p>
 		</div>
         <div class = "collapsible-body abstract">
@@ -103,6 +106,9 @@ title: Publications
 			{% endif %}
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
+    		{% endif %}
+    		{% if pub.award %}
+    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
     		{% endif %}
 			</p>
 		</div>
@@ -168,6 +174,9 @@ title: Publications
 			{% endif %}
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
+    		{% endif %}
+    		{% if pub.award %}
+    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
     		{% endif %}
 			</p>
 		</div>
@@ -237,6 +246,9 @@ title: Publications
 			{% endif %}
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
+    		{% endif %}
+    		{% if pub.award %}
+    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
     		{% endif %}
 			</p>
 		</div>
@@ -311,6 +323,9 @@ title: Publications
 			{% if pub.doi %}
 			DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
     		{% endif %}
+    		{% if pub.award %}
+    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
+    		{% endif %}
 			</p>
 		</div>
         <div class = "collapsible-body abstract">
@@ -382,6 +397,9 @@ title: Publications
 			{% endif %}
 			{% if pub.doi %}
         		DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a> 
+    		{% endif %}
+    		{% if pub.award %}
+    			<br/><span class="award-{{pub.award_num}}"><b>{{ pub.award }}</b></span>
     		{% endif %}
 			</p>
 		</div>
