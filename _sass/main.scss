@@ -125,6 +125,49 @@ hr {
 	clear:both;
 }
 
+.award-first {
+	background : gold;
+	padding : 3px;
+	border-radius : 10px;
+	border : 1px solid gold;
+	margin-right: 5px;
+}
+
+.award-second {
+	background : silver;
+	padding : 3px;
+	border-radius : 10px;
+	border : 1px solid silver;
+	margin-right : 5px;
+}
+
+.abstract-text {
+	border-bottom : solid 1px lightgray;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+}
+
+.abstract-title {
+	margin-left: -2em;
+	padding-left: 2em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-right: 0.5em;
+	color: white;
+	background: #6464cc;
+	margin-right: 0.5em;
+}
+
+
+.pub-link {
+	padding : 3px;
+	border-radius : 10px;
+	border : 1px solid blue;
+	margin-right : 5px;
+}
+
 .theme-nav {
 	-webkit-box-shadow: none;
 	background-color: transparent;

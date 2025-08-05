@@ -1,3 +1,18 @@
+- title: "Biomedical text mining for knowledge extraction"
+  authors:
+    - Jake Lever
+    - Javier Sanz-Cruzado
+    - Zaiqiao Meng
+  conference: 33rd Conference on Intelligent Systems for Molecular Biology (ISMB 2025) and 24th European Conference on Computational Biology (ECCB 2025)
+  abstract: "Modern bioinformatics analyses rely heavily on the existing knowledge of the role of genes and mutations in different diseases, as well as the complex interactions between genes, proteins and drugs. However, access to this information is often limited for many biomedical problems, especially niche areas, due to lack of knowledge bases and large curation costs. The information is often locked in the text of the original research papers. Machine learning methods, particular natural language processing techniques, offer an automated approach to extracting knowledge from the research literature to build bespoke knowledge bases for scientists' needs. This tutorial will provide a hands-on introduction to the core tasks in biomedical natural language processing (BioNLP). These include identifying mentions of important concepts (e.g. phenotypes, cell-lines, etc) and extracting nuanced relationships between them. Finally, it will show how large language models have changed how information can be quickly extracted, but also highlight their challenges."
+  venue: Liverpool, United Kingdom and Online
+  date: July 2025
+  website: https://ai4biomed.org/ismb2025tutorial/
+  keywords:
+    - biomedicine
+    - natural language processing
+    - information extraction
+    - large language models
 - title: "Information Retrieval in Finance: Industry and Academic Perspectives on Innovation"
   authors:
     - Chung-Chi Chen
@@ -10,6 +25,9 @@
   abstract: "Digital finance is an increasingly important component of everyday life, digital banking has become the norm, over 60% of working age adults in the U.S. hold stock market investments, and the advent of large generative models have disrupted the market, resulting in new financial AI tools, as well as increased automation of tasks. However, finance is a specialist domain, with unique challenges and considerations that makes it a particularly rich space for researchers looking for difficult but impactful problems to explore. Financial applications are heavily dependent on personalization to be effective and require deep user understanding. Financial search and QA systems require a strong grasp on temporal dynamics and need to aggregate evidence from multiple sources. Meanwhile, there is a focus on not just serving information, but facilitating user understanding - as financial information retrieval systems are used to support high-impact decision making. We believe that digital finance will become a much more prevalent use-case in SIGIR and related venues in the next few years, and so we propose this tutorial as a means to introduce and skill-up the IR community in state-of-the-art digital finance research and applications. In particular, this full-day tutorial presents covers the integration of information retrieval, recommender systems, and large language models in financial applications such as investment recommendation, portfolio selection, and research management. Through interdisciplinary insights and real-world case studies, we aim to provide attendees a comprehensive understanding of how modern IR and NLP techniques are transforming financial landscape."
   venue: Padua, Italy
   date: July 2025
+  link: https://javiersanzcruza.github.io/assets/papers/sigir2025_tutorial.pdf
+  website: https://sites.google.com/view/irfin/
+  doi: 
   keywords:
     - finance
     - large language models
