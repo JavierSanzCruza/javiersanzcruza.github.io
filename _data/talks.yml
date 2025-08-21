@@ -101,7 +101,7 @@
     - weak tie
     - evaluation
     - metric
-  slides: https://javiersanzcruza.github.io/assets/slides/ir-seminar-glasgow-february2022.pdf
+  slides: https://javiersanzcruza.github.io/assets/slides/ir-seminar-glasgow-february-2022.pdf
   abstract: >+
     Contact recommendation appears as one of the most relevant problems in the confluence between recommender systems and online social networks. The goal of this problem is to identify those people in a social network with whom a user might be interested to connect. In this seminar, we explore two different aspects of contact recommendation.
     First, we explore the design of novel and effective algorithms, looking to increase the density of the network. For this, we adapt classical information retrieval models to recommend people in social networks and use them in three different tasks: as direct recommenders, as similarity measures in nearest neighbours schemes and as samplers and features in learning to rank.
