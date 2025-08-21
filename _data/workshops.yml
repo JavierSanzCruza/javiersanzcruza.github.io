@@ -14,6 +14,7 @@
   link: https://javiersanzcruza.github.io/assets/papers/bionlp2025.pdf
   code: https://github.com/Glasgow-AI4BioMed/entitytools
   slides: https://javiersanzcruza.github.io/assets/slides/bionlp2025-slides.pdf
+  video: https://youtu.be/7aZifYwQiU8
   abstract: "Biomedical entity linking models disambiguate mentions in text by matching them with unique biomedical concepts. This problem is commonly addressed using a two-stage pipeline comprising an inexpensive candidate generator, which filters a subset of suitable entities for a mention, and a costly but precise reranker that provides the final matching between the mention and the concept. With the goal of applying two-stage entity linking at scale, we explore the construction of effective cross-encoder reranker models, capable of scoring multiple mention-entity pairs simultaneously. Through experiments on four entity linking datasets, we show that our cross-encoder models provide between 2.7 to 36.97 times faster training speeds and 3.8 to 26.47 times faster inference speeds than a base cross-encoder model capable of scoring only one entity, while achieving similar accuracy (differences between -3.42% to 2.76% Acc@1)."
   award: Second Prize Best Paper Award
   award_num: second
@@ -90,7 +91,7 @@
   link: https://javiersanzcruza.github.io/assets/papers/finrecsys-2024-fartrans.pdf
   doi: https://doi.org/10.48550/arXiv.2407.08692
   slides: https://javiersanzcruza.github.io/assets/slides/finrecsys-2024-fartrans.pdf
-
+  data: https://researchdata.gla.ac.uk/1658/
 - title: On Transaction-Based Metrics as a Proxy for Profitability of Financial Asset Recommendations
   authors: 
     - Javier Sanz-Cruzado

@@ -12,6 +12,7 @@
     - low rank adapters
     - mixture of experts
   abstract: "Information extraction (IE) systems aim to convert free text into structured knowledge that can be more easily and effectively used for a wide range of tasks, such as question answering or explanation generation. However, as text sources and information needs have diversified, developing domain-specific IE solutions is becoming less practical due to the lack of training data; resulting in a need for generalizable solutions that can perform IE over unseen data types and information needs. Current approaches augment an LLM with a single low-rank adapter (LoRA) via tuning over many tasks to attain some IE generalizability, but regularly fail when targeting information types not in the training data. We hypothesize that one of the reasons for this is IE-task-insensitivity, i.e. just telling the model what to look for in the prompt is insufficient context to guide the model. In this paper, we propose Task-Aware MoELoRA, a novel method that embeds an additional task signal into the IE process via a mixture-of-experts router. Through extensive experimentation over 35 IE datasets, we show that Task-Aware MoELoRA method significantly outperforms the LoRA baselines over the majority of unseen tasks, achieving gains of up to 8.2%."
+
 - title: "Are Generative AI Agents Effective Personalized Financial Advisors?"
   authors:
     - Takehiro Takayanagi
@@ -34,6 +35,7 @@
   abstract: "Large language model-based agents are becoming increasingly popular as a low-cost mechanism to provide personalized, conversational advice, and have demonstrated impressive capabilities in relatively simple scenarios, such as movie recommendations. But how do these agents perform in complex high-stakes domains, where domainexpertise is essential and mistakes carry substantial risk? This paper investigates the effectiveness of LLM-advisors in the finance domain, focusing on three distinct challenges: (1) eliciting user preferences when users themselves may be unsure of their needs, (2) providing personalized guidance for diverse investment preferences, and (3) leveraging advisor personality to build relationships and foster trust. Via a lab-based user study with 64 participants, we show that LLM-advisors often match human advisor performance when eliciting preferences, although they can struggle to resolve conflicting user needs. When providing personalized advice, the LLM was able to positively influence user behavior, but demonstrated clear failure modes. Our results show that accurate preference elicitation is key, otherwise, the LLM-advisor has little impact, or can even direct the investor toward unsuitable assets. More worryingly, users appear insensitive to the quality of advice being given, or worse these can have an inverse relationship. Indeed, users reported a preference for and increased satisfaction as well as emotional trust with LLMs adopting an extroverted persona, even though those agents provided worse advice."
   slides: https://javiersanzcruza.github.io/assets/slides/sigir2025_takehiro.pdf
   code: https://github.com/TTsamurai/LLMAdvisor_supplementary
+
 - title: "Improving novelty and diversity of nearest-neighbors recommendation by exploiting dissimilarities"
   authors:
     - Pablo Sánchez
@@ -54,6 +56,7 @@
     - dissimilarity
   abstract: Neighborhood-based approaches remain widely used techniques in collaborative filtering recommender systems due to their versatility, simplicity, and efficiency. Traditionally, these algorithms consider similarity functions to measure how close user or item interactions are. However, their focus on capturing similar tastes often overlooks divergent preferences that could enhance recommendations. In this paper, we explore alternative methods to incorporate such information to improve beyond-accuracy performance in this type of recommenders. We define three mechanisms based on various modeling assumptions to integrate differing preferences into traditional nearest neighbors algorithms. Our comparison on four well-known and different datasets shows that our proposed approach can enhance the novelty and diversity of the recommendations while maintaining ranking accuracy.
   slides: https://abellogin.github.io/2025/ir4good-slides.pdf
+
 - title: "Stock Recommendations for Individual Investors: A Temporal Graph Network Approach with Mean-variance Efficient Sampling"
   authors:
     - Youngbin Lee
@@ -67,12 +70,14 @@
   pages: 795-803
   link: https://javiersanzcruza.github.io/assets/papers/icaif2024.pdf
   doi: https://doi.org/10.1145/3677052.3698662
+  poster: https://javiersanzcruza.github.io/assets/posters/icaif2024-poster.pdf
   keywords:
     - recommender systems
     - financial recommendation
     - temporal graph network
   abstract: >+
     Recommender systems can be helpful for individuals to make well-informed decisions in complex financial markets. While many studies have focused on predicting stock prices, even advanced models fall short of accurately forecasting them. Additionally, previous studies indicate that individual investors often disregard established investment theories, favoring their personal preferences instead. This presents a challenge for stock recommendation systems, which must not only provide strong investment performance but also respect these individual preferences. To create effective stock recommender systems, three critical elements must be incorporated: 1) individual preferences, 2) portfolio diversification, and 3) the temporal dynamics of the first two. In response, we propose a new model, Portfolio Temporal Graph Network Recommender (PfoTGNRec), which can handle time-varying collaborative signals and incorporates diversification-enhancing sampling. On real-world individual trading data, our approach demonstrates superior performance compared to state-of-the-art baselines, including cutting-edge dynamic embedding models and existing stock recommendation models. Indeed, we show that PfoTGNRec is an effective solution that can balance customer preferences with the need to suggest portfolios with high Return-on-Investment.
+
 - title: "RELISON: A Framework for Link Recommendation in Social Networks"
   authors:
     - Javier Sanz-Cruzado

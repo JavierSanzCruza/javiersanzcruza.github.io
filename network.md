@@ -23,24 +23,30 @@ title: Networks
 			</p>
 		</div>
         <div class = "collapsible-body abstract">
-        	<span><b>Description: </b> {{ net.description }}
-        	<br/><b>Keywords:</b>
-        	{% for keyword in net.keywords %}
-        		{% if forloop.last %}
-        			{{ keyword }}.
-    			{% else %}
-    				{{ keyword }},
-    			{% endif %}
-    		{% endfor %}
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Description:</b></span><span>{{ net.description }}</span>
+        	</div>
+        	<div class="abstract-text">
+        		<span class="abstract-title"><b>Keywords</b></span><span>
+	        	{% for keyword in net.keywords %}
+	        		{% if forloop.last %}
+	        			{{ keyword }}.
+	    			{% else %}
+	    				{{ keyword }},
+	    			{% endif %}
+	    		{% endfor %}
+	    	</span>
+	    	</div>
     		{% if net.altlinks %}
-    		<br><b>Alternative links:</b>
+    		<div class="abstract-text">
+        		<span class="abstract-title"><b>Alternative links</b></span><span>
     			<ul>
     				{% for link in net.altlinks %}
     				<li><a href="{{ link.link }}">{{link.description}}</a></li>
     				{% endfor %}
     			</ul>
-    		{% endif %}
-    	</span>
+    		</span></div>
+    	    {% endif %}
     	</div>
     </li>
     {% endfor %}

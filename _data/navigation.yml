@@ -13,9 +13,9 @@
 - name: Thesis
   link: /thesis
   icon: book
-#- name: Talks
-#  link: /talks
-#  icon: volume_up
+- name: Talks
+  link: /talks
+  icon: volume_up
 - name: Software
   link: https://github.com/JavierSanzCruza
   icon: computer
