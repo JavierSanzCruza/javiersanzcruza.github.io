@@ -63,9 +63,6 @@ title: Publications
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
     		{% endif %}
-    	    {% if pub.code %}
-    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
-    		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
@@ -73,7 +70,7 @@ title: Publications
 		</div>
         <div class = "collapsible-body abstract">
         	<div class="abstract-text">
-        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        		<span class="abstract-title"><b>Abstract</b></span><span>{{ pub.abstract }}</span>
         	</div>
         	<div class="abstract-text">
         		<span class="abstract-title"><b>Keywords</b></span><span>
@@ -149,9 +146,6 @@ title: Publications
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
     		{% endif %}
-    	    {% if pub.code %}
-    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
-    		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
@@ -159,7 +153,7 @@ title: Publications
 		</div>
 		<div class = "collapsible-body abstract">
         	<div class="abstract-text">
-        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        		<span class="abstract-title"><b>Abstract</b></span><span>{{ pub.abstract }}</span>
         	</div>
         	<div class="abstract-text">
         		<span class="abstract-title"><b>Keywords</b></span><span>
@@ -235,9 +229,6 @@ title: Publications
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
     		{% endif %}
-    	    {% if pub.code %}
-    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
-    		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
@@ -245,7 +236,7 @@ title: Publications
 		</div>
 		<div class = "collapsible-body abstract">
         	<div class="abstract-text">
-        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        		<span class="abstract-title"><b>Abstract</b></span><span>{{ pub.abstract }}</span>
         	</div>
         	<div class="abstract-text">
         		<span class="abstract-title"><b>Keywords</b></span><span>
@@ -322,9 +313,6 @@ title: Publications
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
     		{% endif %}
-    	    {% if pub.code %}
-    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
-    		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
@@ -332,7 +320,7 @@ title: Publications
 		</div>
 		<div class = "collapsible-body abstract">
         	<div class="abstract-text">
-        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        		<span class="abstract-title"><b>Abstract</b></span><span>{{ pub.abstract }}</span>
         	</div>
         	<div class="abstract-text">
         		<span class="abstract-title"><b>Keywords</b></span><span>
@@ -420,7 +408,7 @@ title: Publications
 		</div>
 		<div class = "collapsible-body abstract">
         	<div class="abstract-text">
-        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        		<span class="abstract-title"><b>Abstract</b></span><span>{{ pub.abstract }}</span>
         	</div>
         	<div class="abstract-text">
         		<span class="abstract-title"><b>Keywords</b></span><span>
@@ -510,7 +498,7 @@ title: Publications
 		</div>
 		<div class = "collapsible-body abstract">
         	<div class="abstract-text">
-        		<span class="abstract-title"><b>Abstract:</b></span><span>{{ pub.abstract }}</span>
+        		<span class="abstract-title"><b>Abstract</b></span><span>{{ pub.abstract }}</span>
         	</div>
         	<div class="abstract-text">
         		<span class="abstract-title"><b>Keywords</b></span><span>

@@ -17,7 +17,7 @@ title: Talks
 					(In ({{ pub.language }}))
 				{% endif %}
 			<br/>
-			<em> {{ pub.event }} </em>, {{ pub.venue }}, {{ pub.date }}.
+			<em> {{ pub.event }} </em>, {{ pub.venue }}, {{ pub.date }}.<br/>
 			{% if pub.slides %}
     		    <a class="pub-link" href="{{ pub.slides }}">Slides</a>
 		    {% endif %}

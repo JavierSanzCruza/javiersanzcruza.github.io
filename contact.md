@@ -24,6 +24,7 @@ title: Contact
 </div>
 
 <div style="align: left; font-size:24px">Social media</div>
+<hr class="solid">
 <div class="contact-info">
 <!-- a href="https://www.linkedin.com/in/javier-sanz-cruzado-puig-607344172/" -->
 <a href="https://www.linkedin.com/in/javier-sanz-cruzado-puig/">
@@ -64,6 +65,7 @@ title: Contact
 </div>
 
 <div style="align: left; font-size:24px">Research profile</div>
+<hr class="solid">
 <div class="contact-info">
 
 <a href="https://orcid.org/0000-0002-7829-5174">
@@ -128,6 +130,7 @@ title: Contact
 </div>
 
 <div style="align: left; font-size:24px">Others</div>
+<hr class="solid">
 <div class="contact-info">
 <a href="https://github.com/JavierSanzCruza">
 	<div class="mdc-card my-card">

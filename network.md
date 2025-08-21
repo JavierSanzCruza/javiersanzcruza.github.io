@@ -24,7 +24,7 @@ title: Networks
 		</div>
         <div class = "collapsible-body abstract">
         	<div class="abstract-text">
-        		<span class="abstract-title"><b>Description:</b></span><span>{{ net.description }}</span>
+        		<span class="abstract-title"><b>Description</b></span><span>{{ net.description }}</span>
         	</div>
         	<div class="abstract-text">
         		<span class="abstract-title"><b>Keywords</b></span><span>
