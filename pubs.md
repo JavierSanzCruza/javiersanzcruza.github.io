@@ -63,6 +63,9 @@ title: Publications
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
     		{% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
@@ -145,6 +148,9 @@ title: Publications
     		{% endif %}
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
+    		{% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
     		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
@@ -229,6 +235,9 @@ title: Publications
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
     		{% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
+    		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
     		{% endif %}
@@ -312,6 +321,9 @@ title: Publications
     		{% endif %}
     		{% if pub.model %}
     		    <a class="pub-link" href="{{ pub.model }}">Model</a>
+    		{% endif %}
+    	    {% if pub.code %}
+    		    <a class="pub-link" href="{{ pub.code }}">Code</a>
     		{% endif %}
     		{% if pub.website %}
     		    <a class="pub-link" href="{{ pub.website }}">Website</a>
