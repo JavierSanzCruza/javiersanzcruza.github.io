@@ -20,7 +20,7 @@
   award_num: second
   doi: https://doi.org/10.18653/v1/2025.bionlp-1.13
   pages: 136-147
-  poster: https://javiersanzcruza.github.io/assets/slides/compbio2025-poster.pdf
+  poster: https://javiersanzcruza.github.io/assets/posters/compbio2025-poster.pdf
 - title: "University of Glasgow at the FinLLM Challenge Task: Adapting Llama for Financial News Abstractive Summarization"
   authors:
     - Lubingzhi Guo
