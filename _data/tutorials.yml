@@ -27,9 +27,10 @@
   date: July 2025
   link: https://javiersanzcruza.github.io/assets/papers/sigir2025_tutorial.pdf
   website: https://sites.google.com/view/irfin/
-  doi: 
+  doi: https://doi.org/10.1145/3726302.3731685
   keywords:
     - finance
     - large language models
     - recommender systems
     - information retrieval
+  pages: 4090-4093

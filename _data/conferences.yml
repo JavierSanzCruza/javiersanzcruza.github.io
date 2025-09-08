@@ -11,6 +11,7 @@
     - information extraction
     - low rank adapters
     - mixture of experts
+  link: https://javiersanzcruza.github.io/assets/papers/ecai2025.pdf
   abstract: "Information extraction (IE) systems aim to convert free text into structured knowledge that can be more easily and effectively used for a wide range of tasks, such as question answering or explanation generation. However, as text sources and information needs have diversified, developing domain-specific IE solutions is becoming less practical due to the lack of training data; resulting in a need for generalizable solutions that can perform IE over unseen data types and information needs. Current approaches augment an LLM with a single low-rank adapter (LoRA) via tuning over many tasks to attain some IE generalizability, but regularly fail when targeting information types not in the training data. We hypothesize that one of the reasons for this is IE-task-insensitivity, i.e. just telling the model what to look for in the prompt is insufficient context to guide the model. In this paper, we propose Task-Aware MoELoRA, a novel method that embeds an additional task signal into the IE process via a mixture-of-experts router. Through extensive experimentation over 35 IE datasets, we show that Task-Aware MoELoRA method significantly outperforms the LoRA baselines over the majority of unseen tasks, achieving gains of up to 8.2%."
 - title: "Are Generative AI Agents Effective Personalized Financial Advisors?"
   authors:
@@ -30,6 +31,8 @@
     - personalization
     - personality
     - user study
+  doi: https://doi.org/10.1145/3726302.3729897
+  pages: 286-295
   link: https://javiersanzcruza.github.io/assets/papers/sigir2025.pdf
   abstract: "Large language model-based agents are becoming increasingly popular as a low-cost mechanism to provide personalized, conversational advice, and have demonstrated impressive capabilities in relatively simple scenarios, such as movie recommendations. But how do these agents perform in complex high-stakes domains, where domainexpertise is essential and mistakes carry substantial risk? This paper investigates the effectiveness of LLM-advisors in the finance domain, focusing on three distinct challenges: (1) eliciting user preferences when users themselves may be unsure of their needs, (2) providing personalized guidance for diverse investment preferences, and (3) leveraging advisor personality to build relationships and foster trust. Via a lab-based user study with 64 participants, we show that LLM-advisors often match human advisor performance when eliciting preferences, although they can struggle to resolve conflicting user needs. When providing personalized advice, the LLM was able to positively influence user behavior, but demonstrated clear failure modes. Our results show that accurate preference elicitation is key, otherwise, the LLM-advisor has little impact, or can even direct the investor toward unsuitable assets. More worryingly, users appear insensitive to the quality of advice being given, or worse these can have an inverse relationship. Indeed, users reported a preference for and increased satisfaction as well as emotional trust with LLMs adopting an extroverted persona, even though those agents provided worse advice."
   slides: https://javiersanzcruza.github.io/assets/slides/sigir2025_takehiro.pdf
