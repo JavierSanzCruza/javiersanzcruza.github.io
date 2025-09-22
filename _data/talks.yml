@@ -1,4 +1,15 @@
 - title: "Accelerating Cross-Encoders for Biomedical Entity Linking"
+  event: Glasgow IR Group Seminar Series
+  venue: University of Glasgow, Glasgow, Scotland
+  date: September 2025
+  keywords:
+    - biomedicine
+    - entity linking
+    - cross-encoders
+    - efficiency
+  abstract: "Biomedical entity linking models disambiguate mentions in text by matching them with a unique biomedical concept. This problem is commonly addressed using a two-stage pipeline comprising an inexpensive candidate generator, which filters a subset of suitable entities for a mention, and a costly but precise reranker that provides the final matching between the mention and the concept. In this talk, we explore the construction of effective and efficient cross-encoder rerankers, capable of scoring multiple mention-entity pairs simultaneously. We test their effectiveness and efficiency on four biomedical entity linking datasets."
+  slides: https://javiersanzcruza.github.io/assets/slides/irseminar_september2025.pdf
+- title: "Accelerating Cross-Encoders for Biomedical Entity Linking"
   event: AI4Biomed Group Research Meeting
   venue: University of Glasgow, Glasgow, Scotland
   date: April 2025
