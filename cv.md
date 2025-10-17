@@ -489,6 +489,8 @@ title: CV
                 <li><b>Research scholarship in MSc studies.</b> Universidad Autónoma de Madrid. October 2015 to October 2016</li>
                 <li><b>PhD scholarship (FPI grant).</b> Universidad Autónoma de Madrid. March 2017 to September 2018.</li>
                 <li><b>PhD scholarship (FPU grant).</b> Spanish Government. September 2018 to May 2021</li>
+                <li><b>Second Prize Best Paper Award</b> at the BioNLP workshop at ACL 2025</li>
+                <li><b>Best Poster Award</b> at the 2025 University of Glasgow Computational Biology Conference (CompBio 2025)</li>
             </ul>
         </div>
         <a style="font-size:16px; margin-top:10px; margin-bottom:10px;" href="#index">Back to top</a>
@@ -558,7 +560,11 @@ title: CV
                         <li><i>Program committee member</i> for the 5th ACM Conference on AI in Finance (ICAIF 2024).</li>
                         <li><i>Program committee member</i> for the 48th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2025).</li>
                         <li><i>Program committee member</i> for the 19th ACM Conference on Recommender Systems (RecSys 2025)</li>
-                    </ul></li>
+                        <li><i>Program committee member</i> for the 6th ACM Conference on AI in Finance (ICAIF 2025)</li>
+                        <li><i>Program committee member</i> for the 19th ACM Conference on Web Search and Data Mining (WSDM 2026)</li>
+                        <li><i>Program committee member</i> for the 47th European Conference on Information Retrieval (ECIR 2026)</li>
+                    </ul>
+                 </li>
             </ul>
         </div>
         <a style="font-size:16px; margin-top:10px; margin-bottom:10px;" href="#index">Back to top</a>

@@ -49,6 +49,8 @@ title: Home
 	<div style="align: left; font-size:28px; margin-top: 32px">Latest news</div>
 	<hr class="solid">
 	<ul>
+		<li style="text-align: justify; list-style-type: circle"><b>16th September 2025:</b> Obtained Best Poster Award at the University of Glasgow Computational Biology Conference (CompBio 2025)!</li>
+		<li style="text-align: justify; list-style-type: circle"><b>1st August 2025:</b> Obtained Second Prize Best Paper Award at the BioNLP 2025 workshop for our paper Accelerating Cross-Encoders in Biomedical Entity Linking"!</li>
 		<li style="text-align: justify; list-style-type: circle"><b>15th July 2025:</b> Full paper accepted at the 28th European Conference on Artificial Intelligence (ECAI 2025), titled "Selecting the Right Experts: Generalizing Information Extraction for Unseen Scenarios via Task-Aware Expert Weighting" with  <a href="https://www.gla.ac.uk/pgrs/lubingzhiguo/">Lubingzhi Guo</a> and <a href="http://dcs.gla.ac.uk/~richardm/Home/">Richard McCreadie</a>.</li>
 		<li style="text-align: justify; list-style-type: circle"><b>6th May 2025:</b> Full paper accepted at the BioNLP 2025 workshop at ACM 2025, titled "Accelerating Cross-Encoders in Biomedical Entity Linking" with <a href="https://jakelever.github.io/">Jake Lever</a>.</li>
 		<li style="text-align: justify; list-style-type: circle"><b>6th May 2025:</b> Paper accepted at the post-proceedings LNCS volume of the 2nd workshop on Knowledge Enhanced Retrieval (KEIR @ ECIR 2025) titled "Evaluating Knowledge Graph Sources for Non-Personalized Financial Asset Recommendation: 10K Reports vs. Wikidata" with <a href="https://www.gla.ac.uk/pgrs/lubingzhiguo/">Lubingzhi Guo</a> and <a href="http://dcs.gla.ac.uk/~richardm/Home/">Richard McCreadie</a>.</li>
