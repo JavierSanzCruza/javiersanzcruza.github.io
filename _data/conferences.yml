@@ -12,6 +12,9 @@
     - low rank adapters
     - mixture of experts
   link: https://javiersanzcruza.github.io/assets/papers/ecai2025.pdf
+  doi: https://doi.org/10.3233/FAIA251308
+  pages: 4161-4168
+  code: https://github.com/lubingzhiguo/TA-MoELoRA
   abstract: "Information extraction (IE) systems aim to convert free text into structured knowledge that can be more easily and effectively used for a wide range of tasks, such as question answering or explanation generation. However, as text sources and information needs have diversified, developing domain-specific IE solutions is becoming less practical due to the lack of training data; resulting in a need for generalizable solutions that can perform IE over unseen data types and information needs. Current approaches augment an LLM with a single low-rank adapter (LoRA) via tuning over many tasks to attain some IE generalizability, but regularly fail when targeting information types not in the training data. We hypothesize that one of the reasons for this is IE-task-insensitivity, i.e. just telling the model what to look for in the prompt is insufficient context to guide the model. In this paper, we propose Task-Aware MoELoRA, a novel method that embeds an additional task signal into the IE process via a mixture-of-experts router. Through extensive experimentation over 35 IE datasets, we show that Task-Aware MoELoRA method significantly outperforms the LoRA baselines over the majority of unseen tasks, achieving gains of up to 8.2%."
 - title: "Are Generative AI Agents Effective Personalized Financial Advisors?"
   authors:
