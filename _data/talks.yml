@@ -1,3 +1,9 @@
+- title: "Accelerating Biomedical Entity Linking Models"
+  event: Information Access and Retrieval in the AI Age. University of Glasgow Festival of Data Science & AI 2025.
+  venue: University of Glasgow, Glasgow, Scotland
+  date: October 2025
+  abstract: " Biomedical entity linking models disambiguate mentions in text by matching them with a unique biomedical concept (a disease, a drug, etc.). While recent algorithms for this task have been shown to be effective, training and applying these models is very time-consuming. This lack of efficiency complicates their application over large amounts of data or on real-time systems. In this talk, we show several strategies to reduce the training and inference time of these models without harming their effectiveness, and we test these strategies on four biomedical entity linking datasets."
+  slides: https://javiersanzcruza.github.io/assets/slides/festivalai2025.pdf
 - title: "Accelerating Cross-Encoders for Biomedical Entity Linking"
   event: Glasgow IR Group Seminar Series
   venue: University of Glasgow, Glasgow, Scotland
