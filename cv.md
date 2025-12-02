@@ -30,11 +30,11 @@ title: CV
                <li>
                   <!-- begin timeline-time -->
                   <div class="timeline-time">
-                     <span class="time">August 2024</span>
+                     <span class="time">November 2025</span>
                      <span class="time">Present</span>
                   </div>
                   <div class="timeline-time-small">
-                     <span class="time">08/2024</span>
+                     <span class="time">11/2025</span>
                      <span class="time">Present</span>
                   </div>
                   <!-- end timeline-time -->
@@ -51,7 +51,63 @@ title: CV
                                  <td style="max-width: 130px;"><img src="/assets/img/UoG_colour.png" alt="University of Glasgow" style="max-width:200px"></td>
                                  <td>
                                     <span class="username">Research associate</span><br/>
-                                    <span class="text-muted">AI4BioMed Lab, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">https://ai4biomed.org/</a>)</span>
+                                    <span class="text-muted">Terrier Team, University of Glasgow (<a href="http://terrierteam.dcs.gla.ac.uk/index.html">http://terrierteam.dcs.gla.ac.uk</a>)</span>
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     <div class="timeline-content">
+                        <p>
+                           Information extraction from green climate project reports.
+                           <table>
+                              <tr>
+                                 <td><img src="/assets/img/climinvest.png" alt="ClimInvest" style="max-width:100px"></td>
+                                 <td></td>
+                                 <td><b>Project title:</b> ClimInvest<br/>
+                                     <b>Role:</b> Post-doctoral researcher<br/>
+                                     <b>Funder:</b> European Commission (Horizon Europe)<br/>
+                                     <b>Period:</b> Since November 2025<br/>
+                                     Dataset construction from green climate project reports.</td>
+                              </tr>
+                           </table>
+                       </p>
+                     </div>
+                  </div>
+                <!--<div class = "collapsible-header" style="text-align:left;"><i class="material-icons">expand_more</i>
+                    <p>Research associate</p>
+                    <p>University of Glasgow</p>
+                </div>
+                <div class = "collapsible-body abstract">
+                <span><b>Abstract: </b> Recommendation in the financial domain
+                </span>
+                </div>-->
+                 <!-- end timeline-body -->
+               </li>
+               <li>
+                  <!-- begin timeline-time -->
+                  <div class="timeline-time">
+                     <span class="time">August 2024</span>
+                     <span class="time">November 2025</span>
+                  </div>
+                  <div class="timeline-time-small">
+                     <span class="time">08/2024</span>
+                     <span class="time">11/2025</span>
+                  </div>
+                  <!-- end timeline-time -->
+                  <!-- begin timeline-icon -->
+                  <div class="timeline-icon">
+                     <a href="javascript:;">&nbsp;</a>
+                  </div>
+                  <!-- end timeline-icon -->
+                  <!-- begin timeline-body -->
+                     <div class="timeline-body">
+                        <div class="timeline-header">
+                           <table>
+                              <tr style="border-bottom: 0px">
+                                 <td style="max-width: 130px;"><img src="/assets/img/UoG_colour.png" alt="University of Glasgow" style="max-width:200px"></td>
+                                 <td>
+                                    <span class="username">Research associate</span><br/>
+                                    <span class="text-muted">AI4BioMed Lab, University of Glasgow (<a href="https://ai4biomed.org/">https://ai4biomed.org/</a>)</span>
                                  </td>
                               </tr>
                            </table>
@@ -66,7 +122,7 @@ title: CV
                                  <td><b>Project title:</b> Creation of a knowledgebase of high quality assertions of the clinical actionability of somatic variants in cancer<br/>
                                      <b>Role:</b> Post-doctoral researcher<br/>
                                      <b>Funder:</b> National Institutes of Health, USA<br/>
-                                     <b>Period:</b> Since August 2024<br/>
+                                     <b>Period:</b> August 2024 to August 2025<br/>
                                      Natural language processing for the quality of biomedical publications.</td>
                               </tr>
                            </table>
