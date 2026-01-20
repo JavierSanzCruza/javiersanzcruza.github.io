@@ -12,6 +12,13 @@
   link: https://javiersanzcruza.github.io/assets/papers/tois2025.pdf
   poster: https://javiersanzcruza.github.io/assets/posters/tois2025.pdf
   doi: http://dx.doi.org/10.1145/3780097
+  keywords:
+  - recommender systems
+  - financial recommendation
+  - evaluation
+  - metric
+  - profitability
+  - interactions
 - title: Effective Contact Recommendation in Social Networks by Adaptation of Information Retrieval Models
   authors:
     - Javier Sanz-Cruzado

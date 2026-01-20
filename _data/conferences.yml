@@ -11,6 +11,7 @@
     - explainability
     - chain-of-thought
   abstract: "Large Language Models (LLMs) are increasingly promoted for knowledge-intensive reasoning tasks. Effective oversight requires faithful reasoning traces which show how answers are actually produced. Chain-of-Thought (CoT) prompting is positioned as a technique to promote both accuracy and transparency, as well as provide reasoning traces on how solutions are reached. Recent studies have shown that CoT traces, while plausible, are unfaithful to the how the answer was derived. However, we argue there is a second more subtle issue with CoT that requires more investigation; even logically correct CoT explanations can conceal key facts used to produce the answer - thereby misleading the reader. In this paper we illustrate this behavior by six LLM models when answering questions across three question answering (QA) datasets of different types (arithmetic, factual QA, and multi-choice reasoning). In particular, we show that injecting a key fact into the prompt increased QA accuracy by 2.6% to 58% (as expected), yet the models omitted this fact from otherwise sound CoT explanations in up 56% of cases. This provides further evidence that researchers and developers should be wary of relying on CoT explanations, as even those that appear to be logically correct may be misleading."
+  link: https://javiersanzcruza.github.io/assets/papers/ecir2026.pdf
 - title: "Selecting the Right Experts: Generalizing Information Extraction for Unseen Scenarios via Task-Aware Expert Weighting"
   authors:
     - Lubingzhi Guo
