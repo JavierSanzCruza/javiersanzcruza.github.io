@@ -7,7 +7,9 @@
     - Iadh Ounis
   journal: ACM Transactions on Information Systems
   date: December 2025
-  volume: tbp
+  volume: 44
+  issue: 2
+  articleid: 51
   abstract: "The use of recommender systems to assist in the provision of financial asset and portfolio recommendations to investors is increasing, spanning a wide range of algorithms and techniques. Several strategies have been devised for the evaluation of financial asset recommendations, with the two most prominent perspectives measuring, respectively, (a) the money customers could obtain if they followed the recommendations (profitability-based evaluation) and (b) the ability of models to predict future customer investments (transaction-based evaluation). If customers are effective investors, we would expect these two perspectives to be positively correlated. In this paper, we explore the actual relation between these two families of metrics. Theoretically, we prove that these perspectives are independent. Furthermore, we perform experiments over a large-scale financial recommendation dataset with real customer investment transactions. Surprisingly, we find that transaction and profitability-based metrics are, in fact, negatively correlated. Moreover, algorithms that actively learn from past customer transactions might lose money in the mid-term. A thorough analysis of model performance and customer transaction patterns over time shows that this is due to customers failing to consistently beat the market with their investments, with time appearing as an important confounding variable -- since the point of time where recommendations are provided and the investment horizon largely affect the customer's investment performance."
   link: https://javiersanzcruza.github.io/assets/papers/tois2025.pdf
   poster: https://javiersanzcruza.github.io/assets/posters/tois2025.pdf
