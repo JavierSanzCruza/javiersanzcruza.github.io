@@ -599,26 +599,29 @@ title: CV
                     </ul></li>
                 <li><b>Reviewer:</b>
                     <ul style="padding-left: 25px; list-style-type: circle;">
+                        <li><i>Reviewer</i> of ACM Transactions on Recommender Systems</li>
                         <li><i>Reviewer</i> of the Artificial Intelligence and Law journal (AILA)</li>
-                        <li><i>Reviewer</i> of ACM Transactions on Information Systems journal (ACM TOIS).</li>
-                        <li><i>Reviewer</i> of the User Modeling and User-adapted Interaction journal (UMUI).</li>
-                        <li><i>Reviewer</i> of the ACM Transactions on Web journal (ACM TWEB).</li>
-                        <li><i>Reviewer</i> of the AI Communications journal.</li>
-                        <li><i>Reviewer</i> for the latest-breaking results track for the 14th ACM Conference on Recommender Systems (RecSys 2020).</li>
-                        <li><i>Subreviewer</i> for The Web Conference 2021 (TheWebConf 2021).</li>
-                        <li><i>Short paper program committee member</i> for the 44th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021).</li>
+                        <li><i>Reviewer</i> of ACM Transactions on Information Systems journal (ACM TOIS)</li>
+                        <li><i>Reviewer</i> of the User Modeling and User-adapted Interaction journal (UMUI)</li>
+                        <li><i>Reviewer</i> of the ACM Transactions on Web journal (ACM TWEB)</li>
+                        <li><i>Reviewer</i> of the AI Communications journal</li>
+                        <li><i>Reviewer</i> for the latest-breaking results track for the 14th ACM Conference on Recommender Systems (RecSys 2020)</li>
+                        <li><i>Subreviewer</i> for The Web Conference 2021 (TheWebConf 2021)</li>
+                        <li><i>Short paper program committee member</i> for the 44th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2021)</li>
                         <li><i>Program committee member</i> for the 15th ACM Conference on Recommender Systems (RecSys 2021)</li>
                         <li><i>Program committee member</i> for the 45th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022)</li>
                         <li><i>Program committee member</i> for the 44th European Conference on Information Retrieval (ECIR 2022)</li>
                         <li><i>Program committee member</i> for the 16th ACM Conference on Recommender Systems (RecSys 2022)</li>
                         <li><i>Program committee member</i> for the 46th European Conference on Information Retrieval (ECIR 2024)</li>
-                        <li><i>Short Paper Program committee member</i> for the 47th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2024).</li>
+                        <li><i>Short Paper Program committee member</i> for the 47th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2024)</li>
                         <li><i>Program committee member</i> for the 5th ACM Conference on AI in Finance (ICAIF 2024).</li>
-                        <li><i>Program committee member</i> for the 48th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2025).</li>
+                        <li><i>Program committee member</i> for the 48th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2025)</li>
                         <li><i>Program committee member</i> for the 19th ACM Conference on Recommender Systems (RecSys 2025)</li>
                         <li><i>Program committee member</i> for the 6th ACM Conference on AI in Finance (ICAIF 2025)</li>
                         <li><i>Program committee member</i> for the 19th ACM Conference on Web Search and Data Mining (WSDM 2026)</li>
-                        <li><i>Program committee member</i> for the 47th European Conference on Information Retrieval (ECIR 2026)</li>
+                        <li><i>Program committee member</i> for the 48th European Conference on Information Retrieval (ECIR 2026)</li>
+                        <li><i>Program committee member</i> for the 49th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2026)</li>
+                        <li><i>Program committee member</i> for the 20th ACM Conference on Recommender Systems (RecSys 2026)</li>
                     </ul>
                  </li>
             </ul>
