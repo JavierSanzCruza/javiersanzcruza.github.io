@@ -1,3 +1,16 @@
+- title: "Cómo entrenar (y evaluar) a tu robo-advisor: Sistemas de recomendación de activos financieros"
+  event: Ciencia de Datos en Economía y Gestión de la Información
+  venue: Universidad del Bío-Bío, Chile
+  date: July 2026
+  abstract: "Introductory talk (in Spanish) to recommender systems, and financial asset recommendation."
+  slides: https://javiersanzcruza.github.io/assets/slides/chile2026.pdf
+  keywords:
+    - recommender systems
+    - financial recommendation
+    - evaluation
+    - metric
+    - profitability
+    - interactions
 - title: "IAA in Financial Informatics - A PDRA Perspective"
   event: Upwards Seminar on IAA Funding Applications and Projects
   venue: University of Glasgow, Glasgow, Scotland

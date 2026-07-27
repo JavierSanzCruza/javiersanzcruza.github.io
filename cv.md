@@ -58,7 +58,7 @@ title: CV
                         </div>
                      <div class="timeline-content">
                         <p>
-                           Information extraction from green climate project reports.
+                           Automated generation of bankability reports for climate adaptation projects.
                            <table>
                               <tr>
                                  <td><img src="/assets/img/climinvest.png" alt="ClimInvest" style="max-width:100px"></td>
@@ -67,7 +67,7 @@ title: CV
                                      <b>Role:</b> Post-doctoral researcher<br/>
                                      <b>Funder:</b> European Commission (Horizon Europe)<br/>
                                      <b>Period:</b> Since November 2025<br/>
-                                     Dataset construction from green climate project reports.</td>
+                                     Dataset construction from green climate project reports, question answering, text classification and automated report generation.</td>
                               </tr>
                            </table>
                        </p>
