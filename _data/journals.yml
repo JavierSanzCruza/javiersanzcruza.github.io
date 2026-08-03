@@ -19,7 +19,7 @@
   date: July 2026
   pages: vbag209
   abstract: "The Clinical Interpretation of Variants in Cancer (CIViC) knowledgebase provides a community-driven, open-source platform for discussing the biological and clinical significance of molecular variants in cancer. Large language models (LLMs) offer a natural-language interface to CIViC, enabling users to discover and summarize curated oncology knowledge, but LLMs cannot guarantee coverage of specialized, rapidly updated resources like CIViC from pretraining alone.To enable users to make complex connections between CIViC information, we developed the CIViC Model Context Protocol (MCP) server. It allows users to interface with the CIViC API through natural language via LLMs. This facilitates the rapid summarization of expertly curated cancer variant interpretations. Our benchmark shows the server improves the accuracy of clinical significance retrieval while avoiding the far greater latency of GPT-5's Agent Mode, which navigates the web by simulating human inputs.The CIViC MCP server is detailed at https://github.com/griffithlab/civic-mcp-server. The repository includes instructions for accessing the server through the Claude desktop app (our recommended approach; Supplementary Figure 1) and hosting it locally with GPT-5, as well as a Python script for directly querying the MCP server. We also provide an MCP-supported chatbot for CIViC users at https://civicdb.org/mcp-chat."
-  doi: 10.1093/bioadv/vbag209
+  doi: https://doi.org/10.1093/bioadv/vbag209
   keywords: 
    - biomedicine
    - cancer
