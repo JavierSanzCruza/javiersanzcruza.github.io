@@ -1,3 +1,19 @@
+- title: "ClimInvestBench: Evaluating Agentic Investment Report Generation and Maintenance"
+  authors:
+    - Edward Richards
+    - Javier Sanz-Cruzado
+    - Richard McCreadie
+  workshop: 3rd Workshop on LLMs and Generative AI for Finance
+  conference: 7th ACM International Conference on AI in Finance (ICAIF 2026)
+  date: November 2026
+  venue: Milan, Italy
+  keywords:
+    - report generation
+    - climate finance
+    - LLM agents
+    - evaluation
+  link: https://javiersanzcruza.github.io/assets/papers/ai4f2026.pdf
+  abstract: "Generated analytical reports can inform financial decisions, so evaluation must check numerical correctness and evidential support as well as content coverage. Existing report benchmarks provide reference reports or grading criteria, but offer limited support for automatically revising expected calculations and written content when evidence is withheld or updated. Testing generation, missing inputs, and maintenance under the same reporting requirements therefore requires additional reference construction. To address this gap, we define a novel framework for evaluating the quality of structured report generation based on reusable reporting specifications that link structured evidence to required calculations and report content. Pairing a specification with different evidence conditions automatically generates both task instructions and evaluation targets, including unavailable results, revised values, and content to preserve. An automatic test suite combines deterministic checks of structure, tables, numerical results, and citations with LLM judgments of prose coverage and citation support.\nUsing the framework, we build a benchmark, ClimInvestBench, for evaluating the generation of bankability reports for climate mitigation projects. Our benchmark comprises 220 tasks for 20 climate-finance projects across full-evidence generation, missing-evidence generation, and report maintenance. Under this benchmark, we compare six LLMs using whole-report and section-based generation. The experiments show that high structural compliance and content coverage can coexist with numerical errors and gaps in evidential support. Section-based generation uses more recorded response time overall, but its quality benefits depend on the model and task. Specification reuse limits repeated manual preparation, while the set of separate measures expose reporting failures that a single overall score can obscure. These unknown failure modes are of particular concern where the output, as in financial report creation, contributes to high-stakes decision making."
 - title: "Evaluating Knowledge Graph Sources for Non-Personalized Financial Asset Recommendation: 10K Reports vs. Wikidata"
   authors:
     - Lubingzhi Guo
